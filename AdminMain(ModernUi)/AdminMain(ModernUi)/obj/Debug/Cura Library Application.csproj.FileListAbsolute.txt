@@ -1,0 +1,772 @@
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).exe.config
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain(ModernUi).exe
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain(ModernUi).pdb
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).exe
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).pdb
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csprojResolveAssemblyReference.cache
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.AccountsUi.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MAdminUi.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibraryUi_New.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.login.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Properties.Resources.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.RequestUi.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Reservation_Ui.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.ReviewsUi.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.SplashScreen.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.StaffUi.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.StaffUi_New.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csproj.GenerateResource.Cache
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.HelpUi.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csproj.ResolveComReference.cache
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MMemberUi.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\HelpDocs\Helpdc.pdf
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Helpdc.pdf
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\test1.rtf
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Accnts.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Accnts_h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\appbar.user.tie.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Back.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Back_Hover.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\hlp.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\hlp_h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\lib.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\lib_h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\mmbr.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\mmbr_h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rqsts.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rqsts_h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rsrvtn.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rsrvtn_h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rvws.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rvws_h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Sett H.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Sett.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\stff.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\stff_h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\appbar.user.tie h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\noun_15028.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\noun_152048_cc.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Edit.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Login.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\thm.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\thm_h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MStaffUi.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemberLibrary.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rtrn_brrwl.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rtrn_brrwl_h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\loguot_h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\loguot.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Settings.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Settings_h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Bks.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Bks_h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Dgtl.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Dgtl_h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Jrnls.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Jrnls_h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Mgzns.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Mgzns_h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Nwspprs.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Nwspprs_h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Thss.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Thss_h.png
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemLib_Books_Reserve.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Transitions.dll
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MembersUi.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MembersUi_New.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.AccountsUi_New.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryBooks.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibraryUi.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryJournals.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryMagazines.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryNewspapers.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryThesis.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.BarrowelsReturns.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Books.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemLib_Books_Review.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemReq.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Journals.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Magazines.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Newspapers.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Thesis.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Barrow_new.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryDigital.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.ALectures.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.DigiNew.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.eBooks.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.Music.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.SoftwareZone.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.VLectures.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Digital.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.ALectures.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.eBooks.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.Music.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.SoftwareZone.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.Vlectures.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemRes.resources
+C:\Users\asank\Documents\Visual Studio 2015\Projects\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemRev.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).exe.config
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csproj.ResolveComReference.cache
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain(ModernUi).exe
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain(ModernUi).pdb
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\HelpDocs\Helpdc.pdf
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Helpdc.pdf
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\test1.rtf
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Accnts.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Accnts_h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\appbar.user.tie.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Back.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Back_Hover.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\hlp.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\hlp_h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\lib.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\lib_h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\mmbr.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\mmbr_h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rqsts.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rqsts_h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rsrvtn.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rsrvtn_h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rvws.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rvws_h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Sett H.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Sett.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\stff.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\stff_h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\appbar.user.tie h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\noun_15028.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\noun_152048_cc.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Edit.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Login.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\thm.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\thm_h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rtrn_brrwl.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rtrn_brrwl_h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\loguot_h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\loguot.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Settings.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Settings_h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Bks.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Bks_h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Dgtl.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Dgtl_h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Jrnls.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Jrnls_h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Mgzns.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Mgzns_h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Nwspprs.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Nwspprs_h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Thss.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Thss_h.png
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).exe
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).pdb
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csprojResolveAssemblyReference.cache
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.AccountsUi.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.AccountsUi_New.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.BarrowelsReturns.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Barrow_new.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.HelpUi.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.ALectures.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.DigiNew.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.eBooks.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.Music.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.SoftwareZone.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.VLectures.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryBooks.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryDigital.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryJournals.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryMagazines.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryNewspapers.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryThesis.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibraryUi.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MAdminUi.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibraryUi_New.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.login.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.ALectures.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.eBooks.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.Music.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.SoftwareZone.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.Vlectures.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemberLibrary.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemLib_Books_Review.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemReq.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemRes.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemRev.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Books.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemLib_Books_Reserve.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Digital.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Journals.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Magazines.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Newspapers.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Thesis.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MembersUi.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MembersUi_New.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MMemberUi.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MStaffUi.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Properties.Resources.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.RequestUi.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Reservation_Ui.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.ReviewsUi.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.SplashScreen.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.StaffUi.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.StaffUi_New.resources
+C:\Users\asank\Desktop\Misc\ip\Backed Up\CuraClinetwithDB\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csproj.GenerateResource.Cache
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).exe.config
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Interop.AcroPDFLib.dll
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AxInterop.AcroPDFLib.dll
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csproj.ResolveComReference.cache
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain(ModernUi).exe
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain(ModernUi).pdb
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\HelpDocs\Helpdc.pdf
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Helpdc.pdf
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\test1.rtf
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Accnts.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Accnts_h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\appbar.user.tie.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Back.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Back_Hover.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\hlp.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\hlp_h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\lib.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\lib_h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\mmbr.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\mmbr_h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rqsts.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rqsts_h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rsrvtn.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rsrvtn_h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rvws.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rvws_h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Sett H.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Sett.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\stff.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\stff_h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\appbar.user.tie h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\noun_15028.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\noun_152048_cc.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Edit.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Login.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\thm.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\thm_h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rtrn_brrwl.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rtrn_brrwl_h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\loguot_h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\loguot.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Settings.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Settings_h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Bks.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Bks_h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Dgtl.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Dgtl_h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Jrnls.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Jrnls_h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Mgzns.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Mgzns_h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Nwspprs.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Nwspprs_h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Thss.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Thss_h.png
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).exe
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).pdb
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Interop.AcroPDFLib.dll
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AxInterop.AcroPDFLib.dll
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csprojResolveAssemblyReference.cache
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.AccountsUi.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.AccountsUi_New.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.BarrowelsReturns.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Barrow_new.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.HelpUi.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.ALectures.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.DigiNew.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.eBooks.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.Music.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.SoftwareZone.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.VLectures.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryBooks.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryDigital.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryJournals.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryMagazines.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryNewspapers.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryThesis.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibraryUi.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MAdminUi.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibraryUi_New.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.login.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.ALectures.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.eBooks.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.Music.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.SoftwareZone.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.Vlectures.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemberLibrary.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemLib_Books_Review.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemReq.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemRes.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemRev.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Books.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemLib_Books_Reserve.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Digital.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Journals.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Magazines.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Newspapers.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Thesis.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MembersUi.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MembersUi_New.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MMemberUi.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MStaffUi.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Properties.Resources.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.RequestUi.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Reservation_Ui.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.ReviewsUi.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.SplashScreen.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.StaffUi.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.StaffUi_New.resources
+D:\lectures\2nd year\Semester - 02\PROJECTS\Integrating Projects\Project\New folder\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csproj.GenerateResource.Cache
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).exe.config
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csproj.ResolveComReference.cache
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain(ModernUi).exe
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain(ModernUi).pdb
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csprojResolveAssemblyReference.cache
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.AccountsUi.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.AccountsUi_New.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.BarrowelsReturns.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Barrow_new.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.HelpUi.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.ALectures.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.DigiNew.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.eBooks.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.Music.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.SoftwareZone.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.VLectures.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryBooks.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryDigital.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryJournals.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryMagazines.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryNewspapers.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryThesis.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibraryUi.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MAdminUi.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibraryUi_New.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.login.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.ALectures.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.eBooks.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.Music.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.SoftwareZone.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.Vlectures.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemberLibrary.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemLib_Books_Review.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemReq.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemRes.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemRev.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Books.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemLib_Books_Reserve.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Digital.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Journals.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Magazines.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Newspapers.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Thesis.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MembersUi.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MembersUi_New.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MMemberUi.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MStaffUi.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Properties.Resources.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.RequestUi.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Reservation_Ui.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.ReviewsUi.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.SplashScreen.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.StaffUi.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.StaffUi_New.resources
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csproj.GenerateResource.Cache
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\HelpDocs\Helpdc.pdf
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Helpdc.pdf
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\test1.rtf
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Accnts.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Accnts_h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\appbar.user.tie.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Back.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Back_Hover.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\hlp.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\hlp_h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\lib.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\lib_h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\mmbr.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\mmbr_h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rqsts.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rqsts_h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rsrvtn.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rsrvtn_h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rvws.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rvws_h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Sett H.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Sett.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\stff.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\stff_h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\appbar.user.tie h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\noun_15028.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\noun_152048_cc.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Edit.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Login.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\thm.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\thm_h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rtrn_brrwl.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rtrn_brrwl_h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\loguot_h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\loguot.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Settings.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Settings_h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Bks.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Bks_h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Dgtl.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Dgtl_h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Jrnls.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Jrnls_h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Mgzns.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Mgzns_h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Nwspprs.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Nwspprs_h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Thss.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Thss_h.png
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).exe
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).pdb
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\Bimal\Desktop\New folder (2)\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).exe.config
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csproj.ResolveComReference.cache
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain(ModernUi).exe
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain(ModernUi).pdb
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\HelpDocs\Helpdc.pdf
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Helpdc.pdf
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\test1.rtf
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Accnts.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Accnts_h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\appbar.user.tie.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Back.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Back_Hover.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\hlp.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\hlp_h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\lib.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\lib_h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\mmbr.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\mmbr_h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rqsts.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rqsts_h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rsrvtn.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rsrvtn_h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rvws.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rvws_h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Sett H.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Sett.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\stff.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\stff_h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\appbar.user.tie h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\noun_15028.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\noun_152048_cc.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Edit.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Login.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\thm.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\thm_h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rtrn_brrwl.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rtrn_brrwl_h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\loguot_h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\loguot.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Settings.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Settings_h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Bks.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Bks_h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Dgtl.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Dgtl_h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Jrnls.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Jrnls_h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Mgzns.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Mgzns_h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Nwspprs.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Nwspprs_h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Thss.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Thss_h.png
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).exe
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).pdb
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csprojResolveAssemblyReference.cache
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.AccountsUi.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.AccountsUi_New.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.BarrowelsReturns.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Barrow_new.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.HelpUi.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.ALectures.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.DigiNew.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.eBooks.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.Music.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.SoftwareZone.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.VLectures.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryBooks.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryDigital.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryJournals.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryMagazines.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryNewspapers.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryThesis.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibraryUi.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MAdminUi.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibraryUi_New.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.login.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.ALectures.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.eBooks.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.Music.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.SoftwareZone.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.Vlectures.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemberLibrary.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemLib_Books_Review.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemReq.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemRes.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemRev.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Books.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemLib_Books_Reserve.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Digital.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Journals.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Magazines.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Newspapers.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Thesis.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MembersUi.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MembersUi_New.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MMemberUi.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MStaffUi.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Properties.Resources.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.RequestUi.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Reservation_Ui.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.ReviewsUi.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.SplashScreen.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.StaffUi.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.StaffUi_New.resources
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csproj.GenerateResource.Cache
+C:\Users\asank\Desktop\Misc\ip\Bimal\2\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibShw.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).exe.config
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csproj.ResolveComReference.cache
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain(ModernUi).exe
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain(ModernUi).pdb
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\HelpDocs\Helpdc.pdf
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Helpdc.pdf
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\test1.rtf
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Accnts.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Accnts_h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\appbar.user.tie.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Back.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Back_Hover.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\hlp.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\hlp_h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\lib.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\lib_h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\mmbr.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\mmbr_h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rqsts.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rqsts_h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rsrvtn.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rsrvtn_h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rvws.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rvws_h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Sett H.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Sett.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\stff.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\stff_h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\appbar.user.tie h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\noun_15028.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\noun_152048_cc.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Edit.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Login.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\thm.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\thm_h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rtrn_brrwl.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rtrn_brrwl_h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\loguot_h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\loguot.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Settings.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Settings_h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Bks.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Bks_h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Dgtl.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Dgtl_h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Jrnls.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Jrnls_h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Mgzns.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Mgzns_h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Nwspprs.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Nwspprs_h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Thss.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Thss_h.png
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).exe
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).pdb
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csprojResolveAssemblyReference.cache
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.AccountsUi.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.AccountsUi_New.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.BarrowelsReturns.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Barrow_new.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.HelpUi.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.ALectures.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.DigiNew.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.eBooks.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.Music.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.SoftwareZone.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.VLectures.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryBooks.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryDigital.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryJournals.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryMagazines.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryNewspapers.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryThesis.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibShw.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibraryUi.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MAdminUi.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibraryUi_New.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.login.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.ALectures.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.eBooks.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.Music.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.SoftwareZone.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.Vlectures.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemberLibrary.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemLib_Books_Review.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemReq.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemRes.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemRev.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Books.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemLib_Books_Reserve.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Digital.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Journals.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Magazines.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Newspapers.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Thesis.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MembersUi.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MembersUi_New.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MMemberUi.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MStaffUi.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Properties.Resources.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.RequestUi.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Reservation_Ui.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.ReviewsUi.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.SplashScreen.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.StaffUi.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.StaffUi_New.resources
+C:\Users\siva_\Desktop\IP Project\Cura Library Application\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csproj.GenerateResource.Cache
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).exe.config
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csproj.ResolveComReference.cache
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain(ModernUi).exe
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain(ModernUi).pdb
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\HelpDocs\Helpdc.pdf
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Helpdc.pdf
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\test1.rtf
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Accnts.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Accnts_h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\appbar.user.tie.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Back.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Back_Hover.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\hlp.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\hlp_h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\lib.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\lib_h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\mmbr.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\mmbr_h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rqsts.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rqsts_h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rsrvtn.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rsrvtn_h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rvws.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rvws_h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Sett H.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Sett.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\stff.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\stff_h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\appbar.user.tie h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\noun_15028.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\noun_152048_cc.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Edit.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Login.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\thm.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\thm_h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rtrn_brrwl.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\rtrn_brrwl_h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\loguot_h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\loguot.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Settings.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Settings_h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Bks.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Bks_h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Dgtl.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Dgtl_h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Jrnls.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Jrnls_h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Mgzns.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Mgzns_h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Nwspprs.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Nwspprs_h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Thss.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Thss_h.png
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).exe
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).pdb
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csprojResolveAssemblyReference.cache
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.AccountsUi.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.AccountsUi_New.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.BarrowelsReturns.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Barrow_new.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.HelpUi.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.ALectures.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.DigiNew.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.eBooks.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.Music.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.SoftwareZone.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.VLectures.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryBooks.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryDigital.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryJournals.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryMagazines.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryNewspapers.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibraryThesis.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.LibShw.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibraryUi.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MAdminUi.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibraryUi_New.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.login.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.ALectures.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.eBooks.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.Music.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.SoftwareZone.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.Digi.Vlectures.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemberLibrary.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemLib_Books_Review.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemReq.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemRes.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemRev.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Books.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MemLib_Books_Reserve.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Digital.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Journals.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Magazines.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Newspapers.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Thesis.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MembersUi.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MembersUi_New.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MMemberUi.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MStaffUi.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Properties.Resources.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.RequestUi.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Reservation_Ui.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.ReviewsUi.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.SplashScreen.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.StaffUi.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.StaffUi_New.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csproj.GenerateResource.Cache
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Notifier.resources
+C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Books_H.resources

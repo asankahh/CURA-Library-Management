@@ -1,0 +1,894 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{10EC3310-CF9C-462E-8F5B-546F4FD996E5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AdminMain_ModernUi_</RootNamespace>
+    <AssemblyName>AdminMain%28ModernUi%29</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\..\..\..\Downloads\Compressed\MDA\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design">
+      <HintPath>..\..\..\..\..\Downloads\Compressed\MDA\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts">
+      <HintPath>..\..\..\..\..\Downloads\Compressed\MetroFramework_Version1.3.5\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Transitions">
+      <HintPath>..\..\..\..\..\Desktop\Misc\ip\Transitions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountsUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountsUi.Designer.cs">
+      <DependentUpon>AccountsUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccountsUi_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AccountsUi_New.Designer.cs">
+      <DependentUpon>AccountsUi_New.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BarrowelsReturns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BarrowelsReturns.Designer.cs">
+      <DependentUpon>BarrowelsReturns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Barrow_new.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Barrow_new.Designer.cs">
+      <DependentUpon>Barrow_new.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelpUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpUi.Designer.cs">
+      <DependentUpon>HelpUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibCat\Digi\ALectures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibCat\Digi\ALectures.Designer.cs">
+      <DependentUpon>ALectures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibCat\Digi\DigiNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibCat\Digi\DigiNew.Designer.cs">
+      <DependentUpon>DigiNew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibCat\Digi\eBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibCat\Digi\eBooks.Designer.cs">
+      <DependentUpon>eBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibCat\Digi\Music.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibCat\Digi\Music.Designer.cs">
+      <DependentUpon>Music.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibCat\Digi\SoftwareZone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibCat\Digi\SoftwareZone.Designer.cs">
+      <DependentUpon>SoftwareZone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibCat\Digi\VLectures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibCat\Digi\VLectures.Designer.cs">
+      <DependentUpon>VLectures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibCat\LibraryBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibCat\LibraryBooks.Designer.cs">
+      <DependentUpon>LibraryBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibCat\LibraryDigital.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibCat\LibraryDigital.Designer.cs">
+      <DependentUpon>LibraryDigital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibCat\LibraryJournals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibCat\LibraryJournals.Designer.cs">
+      <DependentUpon>LibraryJournals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibCat\LibraryMagazines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibCat\LibraryMagazines.Designer.cs">
+      <DependentUpon>LibraryMagazines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibCat\LibraryNewspapers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibCat\LibraryNewspapers.Designer.cs">
+      <DependentUpon>LibraryNewspapers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibCat\LibraryThesis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibCat\LibraryThesis.Designer.cs">
+      <DependentUpon>LibraryThesis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibCat\LibShw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibCat\LibShw.Designer.cs">
+      <DependentUpon>LibShw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUi.Designer.cs">
+      <DependentUpon>LibraryUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAdminUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAdminUi.Designer.cs">
+      <DependentUpon>MAdminUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryUi_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LibraryUi_New.Designer.cs">
+      <DependentUpon>LibraryUi_New.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mail_sender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mail_sender.Designer.cs">
+      <DependentUpon>mail_sender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberStuff\MemDigi\ALectures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberStuff\MemDigi\ALectures.Designer.cs">
+      <DependentUpon>ALectures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberStuff\MemDigi\eBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberStuff\MemDigi\eBooks.Designer.cs">
+      <DependentUpon>eBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberStuff\MemDigi\Music.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberStuff\MemDigi\Music.Designer.cs">
+      <DependentUpon>Music.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberStuff\MemDigi\SoftwareZone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberStuff\MemDigi\SoftwareZone.Designer.cs">
+      <DependentUpon>SoftwareZone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberStuff\MemDigi\Vlectures.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberStuff\MemDigi\Vlectures.Designer.cs">
+      <DependentUpon>Vlectures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberStuff\MemberLibrary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberStuff\MemberLibrary.Designer.cs">
+      <DependentUpon>MemberLibrary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberStuff\MemLib_Books_Review.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberStuff\MemLib_Books_Review.Designer.cs">
+      <DependentUpon>MemLib_Books_Review.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberStuff\MemReq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberStuff\MemReq.Designer.cs">
+      <DependentUpon>MemReq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberStuff\MemRes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberStuff\MemRes.Designer.cs">
+      <DependentUpon>MemRes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberStuff\MemRev.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberStuff\MemRev.Designer.cs">
+      <DependentUpon>MemRev.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberStuff\MLib_Books.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberStuff\MLib_Books.Designer.cs">
+      <DependentUpon>MLib_Books.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberStuff\MemLib_Books_Reserve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberStuff\MemLib_Books_Reserve.Designer.cs">
+      <DependentUpon>MemLib_Books_Reserve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberStuff\MLib_Books_H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberStuff\MLib_Books_H.Designer.cs" />
+    <Compile Include="MemberStuff\MLib_Digital.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberStuff\MLib_Digital.Designer.cs">
+      <DependentUpon>MLib_Digital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberStuff\MLib_Journals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberStuff\MLib_Journals.Designer.cs">
+      <DependentUpon>MLib_Journals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberStuff\MLib_Magazines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberStuff\MLib_Magazines.Designer.cs">
+      <DependentUpon>MLib_Magazines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberStuff\MLib_Newspapers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberStuff\MLib_Newspapers.Designer.cs">
+      <DependentUpon>MLib_Newspapers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MemberStuff\MLib_Thesis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MemberStuff\MLib_Thesis.Designer.cs">
+      <DependentUpon>MLib_Thesis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MembersUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MembersUi.Designer.cs">
+      <DependentUpon>MembersUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MembersUi_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MembersUi_New.Designer.cs">
+      <DependentUpon>MembersUi_New.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MMemberUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MMemberUi.Designer.cs">
+      <DependentUpon>MMemberUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MStaffUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MStaffUi.Designer.cs">
+      <DependentUpon>MStaffUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="printcls.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RequestUi.Designer.cs">
+      <DependentUpon>RequestUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reservation Ui.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reservation Ui.Designer.cs">
+      <DependentUpon>Reservation Ui.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReviewsUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReviewsUi.Designer.cs">
+      <DependentUpon>ReviewsUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\LibraryService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffUi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffUi.Designer.cs">
+      <DependentUpon>StaffUi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffUi_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StaffUi_New.Designer.cs">
+      <DependentUpon>StaffUi_New.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AccountsUi.resx">
+      <DependentUpon>AccountsUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AccountsUi_New.resx">
+      <DependentUpon>AccountsUi_New.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BarrowelsReturns.resx">
+      <DependentUpon>BarrowelsReturns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Barrow_new.resx">
+      <DependentUpon>Barrow_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpUi.resx">
+      <DependentUpon>HelpUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibCat\Digi\ALectures.resx">
+      <DependentUpon>ALectures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibCat\Digi\DigiNew.resx">
+      <DependentUpon>DigiNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibCat\Digi\eBooks.resx">
+      <DependentUpon>eBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibCat\Digi\Music.resx">
+      <DependentUpon>Music.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibCat\Digi\SoftwareZone.resx">
+      <DependentUpon>SoftwareZone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibCat\Digi\VLectures.resx">
+      <DependentUpon>VLectures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibCat\LibraryBooks.resx">
+      <DependentUpon>LibraryBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibCat\LibraryDigital.resx">
+      <DependentUpon>LibraryDigital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibCat\LibraryJournals.resx">
+      <DependentUpon>LibraryJournals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibCat\LibraryMagazines.resx">
+      <DependentUpon>LibraryMagazines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibCat\LibraryNewspapers.resx">
+      <DependentUpon>LibraryNewspapers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibCat\LibraryThesis.resx">
+      <DependentUpon>LibraryThesis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibCat\LibShw.resx">
+      <DependentUpon>LibShw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUi.resx">
+      <DependentUpon>LibraryUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAdminUi.resx">
+      <DependentUpon>MAdminUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LibraryUi_New.resx">
+      <DependentUpon>LibraryUi_New.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mail_sender.resx">
+      <DependentUpon>mail_sender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberStuff\MemDigi\ALectures.resx">
+      <DependentUpon>ALectures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberStuff\MemDigi\eBooks.resx">
+      <DependentUpon>eBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberStuff\MemDigi\Music.resx">
+      <DependentUpon>Music.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberStuff\MemDigi\SoftwareZone.resx">
+      <DependentUpon>SoftwareZone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberStuff\MemDigi\Vlectures.resx">
+      <DependentUpon>Vlectures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberStuff\MemberLibrary.resx">
+      <DependentUpon>MemberLibrary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberStuff\MemLib_Books_Review.resx">
+      <DependentUpon>MemLib_Books_Review.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberStuff\MemReq.resx">
+      <DependentUpon>MemReq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberStuff\MemRes.resx">
+      <DependentUpon>MemRes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberStuff\MemRev.resx">
+      <DependentUpon>MemRev.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberStuff\MLib_Books.resx">
+      <DependentUpon>MLib_Books.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberStuff\MemLib_Books_Reserve.resx">
+      <DependentUpon>MemLib_Books_Reserve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberStuff\MLib_Books_H.resx" />
+    <EmbeddedResource Include="MemberStuff\MLib_Digital.resx">
+      <DependentUpon>MLib_Digital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberStuff\MLib_Journals.resx">
+      <DependentUpon>MLib_Journals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberStuff\MLib_Magazines.resx">
+      <DependentUpon>MLib_Magazines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberStuff\MLib_Newspapers.resx">
+      <DependentUpon>MLib_Newspapers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MemberStuff\MLib_Thesis.resx">
+      <DependentUpon>MLib_Thesis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MembersUi.resx">
+      <DependentUpon>MembersUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MembersUi_New.resx">
+      <DependentUpon>MembersUi_New.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MMemberUi.resx">
+      <DependentUpon>MMemberUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MStaffUi.resx">
+      <DependentUpon>MStaffUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RequestUi.resx">
+      <DependentUpon>RequestUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reservation Ui.resx">
+      <DependentUpon>Reservation Ui.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReviewsUi.resx">
+      <DependentUpon>ReviewsUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffUi.resx">
+      <DependentUpon>StaffUi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffUi_New.resx">
+      <DependentUpon>StaffUi_New.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpDocs\Helpdc.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\System.Data.DataTable.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Resources\Helpdc.pdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\test1.rtf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <None Include="Service References\LibraryService\CuraService.wsdl" />
+    <None Include="Service References\LibraryService\item.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LibraryService\item1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\LibraryService\item2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Accnts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Accnts_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\appbar.user.tie.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Back.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Back_Hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\hlp.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\hlp_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\lib.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\lib_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\mmbr.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\mmbr_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\rqsts.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\rqsts_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\rsrvtn.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\rsrvtn_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\rvws.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\rvws_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Sett H.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Sett.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\stff.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\stff_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\appbar.user.tie h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\noun_15028.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\noun_152048_cc.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Edit.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Login.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\thm.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\thm_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\rtrn_brrwl.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\rtrn_brrwl_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\loguot_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\loguot.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Settings.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Settings_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Bks.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Bks_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dgtl.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Dgtl_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Jrnls.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Jrnls_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Mgzns.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Mgzns_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Nwspprs.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Nwspprs_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Thss.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Thss_h.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pics.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picssss.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alecs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alecs_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ebks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ebks_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Msc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Msc_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sftwr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sftwr_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vlecs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vlecs_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SplashScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\LibraryService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LibraryService\item.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LibraryService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LibraryService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\LibraryService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ncvr.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

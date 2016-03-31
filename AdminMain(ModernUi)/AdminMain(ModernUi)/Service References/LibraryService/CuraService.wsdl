@@ -1,0 +1,1574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CuraService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_ICuraService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <msf:WindowsTransportSecurity xmlns:msf="http://schemas.microsoft.com/ws/2006/05/framing/policy">
+                  <msf:ProtectionLevel>EncryptAndSign</msf:ProtectionLevel>
+                </msf:WindowsTransportSecurity>
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:9500/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:9500/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:9500/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/System.Data" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICuraService_wcf_InputMessage">
+    <wsdl:part name="parameters" element="tns:wcf" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_wcf_OutputMessage">
+    <wsdl:part name="parameters" element="tns:wcfResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_db_InputMessage">
+    <wsdl:part name="parameters" element="tns:db" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_db_OutputMessage">
+    <wsdl:part name="parameters" element="tns:dbResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_login_chkusr_InputMessage">
+    <wsdl:part name="parameters" element="tns:login_chkusr" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_login_chkusr_OutputMessage">
+    <wsdl:part name="parameters" element="tns:login_chkusrResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_login_chkpw_InputMessage">
+    <wsdl:part name="parameters" element="tns:login_chkpw" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_login_chkpw_OutputMessage">
+    <wsdl:part name="parameters" element="tns:login_chkpwResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_login_chksts_InputMessage">
+    <wsdl:part name="parameters" element="tns:login_chksts" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_login_chksts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:login_chkstsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_getstfdt_InputMessage">
+    <wsdl:part name="parameters" element="tns:getstfdt" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_getstfdt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getstfdtResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_gtmmbrdt_InputMessage">
+    <wsdl:part name="parameters" element="tns:gtmmbrdt" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_gtmmbrdt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:gtmmbrdtResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_getbkdata_InputMessage">
+    <wsdl:part name="parameters" element="tns:getbkdata" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_getbkdata_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getbkdataResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_LgInsrt_InputMessage">
+    <wsdl:part name="parameters" element="tns:LgInsrt" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_LgInsrt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LgInsrtResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_randomBooks_InputMessage">
+    <wsdl:part name="parameters" element="tns:randomBooks" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_randomBooks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:randomBooksResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_SelectLibrary_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectLibrary" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_SelectLibrary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectLibraryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_InsertLibrary_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertLibrary" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_InsertLibrary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertLibraryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_InsertLibraryNoIMG_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertLibraryNoIMG" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_InsertLibraryNoIMG_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertLibraryNoIMGResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_UpdateLibrary_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLibrary" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_UpdateLibrary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLibraryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_UpdateLibraryNoIMG_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLibraryNoIMG" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_UpdateLibraryNoIMG_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLibraryNoIMGResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_getItemImage_InputMessage">
+    <wsdl:part name="parameters" element="tns:getItemImage" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_getItemImage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getItemImageResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_CheckLibrary_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckLibrary" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_CheckLibrary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckLibraryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_GetCategoryName_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCategoryName" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_GetCategoryName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCategoryNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_DeleteLibrary_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteLibrary" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_DeleteLibrary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteLibraryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_SearchLibrary_InputMessage">
+    <wsdl:part name="parameters" element="tns:SearchLibrary" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_SearchLibrary_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SearchLibraryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_InsertDigital_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertDigital" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_InsertDigital_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertDigitalResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_InsertDigitalNoIMG_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertDigitalNoIMG" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_InsertDigitalNoIMG_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertDigitalNoIMGResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_UpdateDigital_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDigital" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_UpdateDigital_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDigitalResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_UpdateDigitalNoIMG_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDigitalNoIMG" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_UpdateDigitalNoIMG_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDigitalNoIMGResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_SelectMember_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectMember" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_SelectMember_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectMemberResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_getMemberImage_InputMessage">
+    <wsdl:part name="parameters" element="tns:getMemberImage" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_getMemberImage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getMemberImageResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_InsertMember_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertMember" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_InsertMember_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertMemberResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_InsertMemberNoIMG_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertMemberNoIMG" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_InsertMemberNoIMG_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertMemberNoIMGResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_CheckMember_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckMember" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_CheckMember_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckMemberResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_UpdateMember_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMember" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_UpdateMember_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMemberResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_UpdateMemberNoIMG_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMemberNoIMG" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_UpdateMemberNoIMG_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateMemberNoIMGResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_DeleteMember_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteMember" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_DeleteMember_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteMemberResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_SelectStaff_InputMessage">
+    <wsdl:part name="parameters" element="tns:SelectStaff" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_SelectStaff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectStaffResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_getStaffImage_InputMessage">
+    <wsdl:part name="parameters" element="tns:getStaffImage" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_getStaffImage_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getStaffImageResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_InsertStaff_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertStaff" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_InsertStaff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertStaffResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_InsertStaffNoIMG_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertStaffNoIMG" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_InsertStaffNoIMG_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertStaffNoIMGResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_CheckStaff_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckStaff" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_CheckStaff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckStaffResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_UpdateStaff_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStaff" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_UpdateStaff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStaffResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_UpdateStaffNoIMG_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStaffNoIMG" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_UpdateStaffNoIMG_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateStaffNoIMGResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_DeleteStaff_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteStaff" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_DeleteStaff_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteStaffResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_newtrans_InputMessage">
+    <wsdl:part name="parameters" element="tns:newtrans" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_newtrans_OutputMessage">
+    <wsdl:part name="parameters" element="tns:newtransResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_transldin_InputMessage">
+    <wsdl:part name="parameters" element="tns:transldin" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_transldin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:transldinResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_transldex_InputMessage">
+    <wsdl:part name="parameters" element="tns:transldex" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_transldex_OutputMessage">
+    <wsdl:part name="parameters" element="tns:transldexResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_Selectin_InputMessage">
+    <wsdl:part name="parameters" element="tns:Selectin" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_Selectin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectinResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_Selectex_InputMessage">
+    <wsdl:part name="parameters" element="tns:Selectex" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_Selectex_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SelectexResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_barrownw_InputMessage">
+    <wsdl:part name="parameters" element="tns:barrownw" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_barrownw_OutputMessage">
+    <wsdl:part name="parameters" element="tns:barrownwResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_brrwls_InputMessage">
+    <wsdl:part name="parameters" element="tns:brrwls" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_brrwls_OutputMessage">
+    <wsdl:part name="parameters" element="tns:brrwlsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_StRes_InputMessage">
+    <wsdl:part name="parameters" element="tns:StRes" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_StRes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StResResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_stResI_InputMessage">
+    <wsdl:part name="parameters" element="tns:stResI" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_stResI_OutputMessage">
+    <wsdl:part name="parameters" element="tns:stResIResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_mRes_InputMessage">
+    <wsdl:part name="parameters" element="tns:mRes" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_mRes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mResResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_StReq_InputMessage">
+    <wsdl:part name="parameters" element="tns:StReq" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_StReq_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StReqResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_MStReq_InputMessage">
+    <wsdl:part name="parameters" element="tns:MStReq" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_MStReq_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MStReqResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_mReq_InputMessage">
+    <wsdl:part name="parameters" element="tns:mReq" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_mReq_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mReqResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_mRqr_InputMessage">
+    <wsdl:part name="parameters" element="tns:mRqr" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_mRqr_OutputMessage">
+    <wsdl:part name="parameters" element="tns:mRqrResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ICuraService">
+    <wsdl:operation name="wcf">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/wcf" message="tns:ICuraService_wcf_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/wcfResponse" message="tns:ICuraService_wcf_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="db">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/db" message="tns:ICuraService_db_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/dbResponse" message="tns:ICuraService_db_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="login_chkusr">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/login_chkusr" message="tns:ICuraService_login_chkusr_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/login_chkusrResponse" message="tns:ICuraService_login_chkusr_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="login_chkpw">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/login_chkpw" message="tns:ICuraService_login_chkpw_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/login_chkpwResponse" message="tns:ICuraService_login_chkpw_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="login_chksts">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/login_chksts" message="tns:ICuraService_login_chksts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/login_chkstsResponse" message="tns:ICuraService_login_chksts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getstfdt">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/getstfdt" message="tns:ICuraService_getstfdt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/getstfdtResponse" message="tns:ICuraService_getstfdt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="gtmmbrdt">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/gtmmbrdt" message="tns:ICuraService_gtmmbrdt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/gtmmbrdtResponse" message="tns:ICuraService_gtmmbrdt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getbkdata">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/getbkdata" message="tns:ICuraService_getbkdata_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/getbkdataResponse" message="tns:ICuraService_getbkdata_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="LgInsrt">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/LgInsrt" message="tns:ICuraService_LgInsrt_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/LgInsrtResponse" message="tns:ICuraService_LgInsrt_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="randomBooks">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/randomBooks" message="tns:ICuraService_randomBooks_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/randomBooksResponse" message="tns:ICuraService_randomBooks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectLibrary">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/SelectLibrary" message="tns:ICuraService_SelectLibrary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/SelectLibraryResponse" message="tns:ICuraService_SelectLibrary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertLibrary">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/InsertLibrary" message="tns:ICuraService_InsertLibrary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/InsertLibraryResponse" message="tns:ICuraService_InsertLibrary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertLibraryNoIMG">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/InsertLibraryNoIMG" message="tns:ICuraService_InsertLibraryNoIMG_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/InsertLibraryNoIMGResponse" message="tns:ICuraService_InsertLibraryNoIMG_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLibrary">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/UpdateLibrary" message="tns:ICuraService_UpdateLibrary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/UpdateLibraryResponse" message="tns:ICuraService_UpdateLibrary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLibraryNoIMG">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/UpdateLibraryNoIMG" message="tns:ICuraService_UpdateLibraryNoIMG_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/UpdateLibraryNoIMGResponse" message="tns:ICuraService_UpdateLibraryNoIMG_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getItemImage">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/getItemImage" message="tns:ICuraService_getItemImage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/getItemImageResponse" message="tns:ICuraService_getItemImage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckLibrary">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/CheckLibrary" message="tns:ICuraService_CheckLibrary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/CheckLibraryResponse" message="tns:ICuraService_CheckLibrary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCategoryName">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/GetCategoryName" message="tns:ICuraService_GetCategoryName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/GetCategoryNameResponse" message="tns:ICuraService_GetCategoryName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLibrary">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/DeleteLibrary" message="tns:ICuraService_DeleteLibrary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/DeleteLibraryResponse" message="tns:ICuraService_DeleteLibrary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SearchLibrary">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/SearchLibrary" message="tns:ICuraService_SearchLibrary_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/SearchLibraryResponse" message="tns:ICuraService_SearchLibrary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertDigital">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/InsertDigital" message="tns:ICuraService_InsertDigital_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/InsertDigitalResponse" message="tns:ICuraService_InsertDigital_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertDigitalNoIMG">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/InsertDigitalNoIMG" message="tns:ICuraService_InsertDigitalNoIMG_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/InsertDigitalNoIMGResponse" message="tns:ICuraService_InsertDigitalNoIMG_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDigital">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/UpdateDigital" message="tns:ICuraService_UpdateDigital_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/UpdateDigitalResponse" message="tns:ICuraService_UpdateDigital_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDigitalNoIMG">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/UpdateDigitalNoIMG" message="tns:ICuraService_UpdateDigitalNoIMG_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/UpdateDigitalNoIMGResponse" message="tns:ICuraService_UpdateDigitalNoIMG_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectMember">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/SelectMember" message="tns:ICuraService_SelectMember_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/SelectMemberResponse" message="tns:ICuraService_SelectMember_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getMemberImage">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/getMemberImage" message="tns:ICuraService_getMemberImage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/getMemberImageResponse" message="tns:ICuraService_getMemberImage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertMember">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/InsertMember" message="tns:ICuraService_InsertMember_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/InsertMemberResponse" message="tns:ICuraService_InsertMember_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertMemberNoIMG">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/InsertMemberNoIMG" message="tns:ICuraService_InsertMemberNoIMG_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/InsertMemberNoIMGResponse" message="tns:ICuraService_InsertMemberNoIMG_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckMember">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/CheckMember" message="tns:ICuraService_CheckMember_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/CheckMemberResponse" message="tns:ICuraService_CheckMember_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMember">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/UpdateMember" message="tns:ICuraService_UpdateMember_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/UpdateMemberResponse" message="tns:ICuraService_UpdateMember_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMemberNoIMG">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/UpdateMemberNoIMG" message="tns:ICuraService_UpdateMemberNoIMG_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/UpdateMemberNoIMGResponse" message="tns:ICuraService_UpdateMemberNoIMG_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMember">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/DeleteMember" message="tns:ICuraService_DeleteMember_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/DeleteMemberResponse" message="tns:ICuraService_DeleteMember_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SelectStaff">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/SelectStaff" message="tns:ICuraService_SelectStaff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/SelectStaffResponse" message="tns:ICuraService_SelectStaff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getStaffImage">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/getStaffImage" message="tns:ICuraService_getStaffImage_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/getStaffImageResponse" message="tns:ICuraService_getStaffImage_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertStaff">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/InsertStaff" message="tns:ICuraService_InsertStaff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/InsertStaffResponse" message="tns:ICuraService_InsertStaff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertStaffNoIMG">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/InsertStaffNoIMG" message="tns:ICuraService_InsertStaffNoIMG_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/InsertStaffNoIMGResponse" message="tns:ICuraService_InsertStaffNoIMG_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckStaff">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/CheckStaff" message="tns:ICuraService_CheckStaff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/CheckStaffResponse" message="tns:ICuraService_CheckStaff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStaff">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/UpdateStaff" message="tns:ICuraService_UpdateStaff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/UpdateStaffResponse" message="tns:ICuraService_UpdateStaff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStaffNoIMG">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/UpdateStaffNoIMG" message="tns:ICuraService_UpdateStaffNoIMG_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/UpdateStaffNoIMGResponse" message="tns:ICuraService_UpdateStaffNoIMG_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteStaff">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/DeleteStaff" message="tns:ICuraService_DeleteStaff_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/DeleteStaffResponse" message="tns:ICuraService_DeleteStaff_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="newtrans">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/newtrans" message="tns:ICuraService_newtrans_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/newtransResponse" message="tns:ICuraService_newtrans_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="transldin">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/transldin" message="tns:ICuraService_transldin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/transldinResponse" message="tns:ICuraService_transldin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="transldex">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/transldex" message="tns:ICuraService_transldex_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/transldexResponse" message="tns:ICuraService_transldex_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Selectin">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/Selectin" message="tns:ICuraService_Selectin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/SelectinResponse" message="tns:ICuraService_Selectin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Selectex">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/Selectex" message="tns:ICuraService_Selectex_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/SelectexResponse" message="tns:ICuraService_Selectex_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="barrownw">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/barrownw" message="tns:ICuraService_barrownw_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/barrownwResponse" message="tns:ICuraService_barrownw_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="brrwls">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/brrwls" message="tns:ICuraService_brrwls_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/brrwlsResponse" message="tns:ICuraService_brrwls_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StRes">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/StRes" message="tns:ICuraService_StRes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/StResResponse" message="tns:ICuraService_StRes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="stResI">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/stResI" message="tns:ICuraService_stResI_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/stResIResponse" message="tns:ICuraService_stResI_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mRes">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/mRes" message="tns:ICuraService_mRes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/mResResponse" message="tns:ICuraService_mRes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StReq">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/StReq" message="tns:ICuraService_StReq_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/StReqResponse" message="tns:ICuraService_StReq_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MStReq">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/MStReq" message="tns:ICuraService_MStReq_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/MStReqResponse" message="tns:ICuraService_MStReq_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mReq">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/mReq" message="tns:ICuraService_mReq_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/mReqResponse" message="tns:ICuraService_mReq_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="mRqr">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/mRqr" message="tns:ICuraService_mRqr_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/mRqrResponse" message="tns:ICuraService_mRqr_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ICuraService" type="tns:ICuraService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="wcf">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/wcf" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="db">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/db" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="login_chkusr">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/login_chkusr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="login_chkpw">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/login_chkpw" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="login_chksts">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/login_chksts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getstfdt">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/getstfdt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gtmmbrdt">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/gtmmbrdt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbkdata">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/getbkdata" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LgInsrt">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/LgInsrt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="randomBooks">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/randomBooks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectLibrary">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/SelectLibrary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertLibrary">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/InsertLibrary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertLibraryNoIMG">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/InsertLibraryNoIMG" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLibrary">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/UpdateLibrary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLibraryNoIMG">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/UpdateLibraryNoIMG" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getItemImage">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/getItemImage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckLibrary">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/CheckLibrary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCategoryName">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/GetCategoryName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLibrary">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/DeleteLibrary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchLibrary">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/SearchLibrary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertDigital">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/InsertDigital" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertDigitalNoIMG">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/InsertDigitalNoIMG" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDigital">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/UpdateDigital" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDigitalNoIMG">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/UpdateDigitalNoIMG" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectMember">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/SelectMember" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMemberImage">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/getMemberImage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertMember">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/InsertMember" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertMemberNoIMG">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/InsertMemberNoIMG" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckMember">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/CheckMember" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMember">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/UpdateMember" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMemberNoIMG">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/UpdateMemberNoIMG" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMember">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/DeleteMember" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectStaff">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/SelectStaff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStaffImage">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/getStaffImage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertStaff">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/InsertStaff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertStaffNoIMG">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/InsertStaffNoIMG" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckStaff">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/CheckStaff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStaff">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/UpdateStaff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStaffNoIMG">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/UpdateStaffNoIMG" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteStaff">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/DeleteStaff" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="newtrans">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/newtrans" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="transldin">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/transldin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="transldex">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/transldex" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Selectin">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/Selectin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Selectex">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/Selectex" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="barrownw">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/barrownw" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="brrwls">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/brrwls" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StRes">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/StRes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="stResI">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/stResI" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mRes">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/mRes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StReq">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/StReq" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MStReq">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/MStReq" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mReq">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/mReq" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mRqr">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/mRqr" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="NetTcpBinding_ICuraService" type="tns:ICuraService">
+    <wsp:PolicyReference URI="#NetTcpBinding_ICuraService_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="wcf">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/wcf" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="db">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/db" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="login_chkusr">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/login_chkusr" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="login_chkpw">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/login_chkpw" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="login_chksts">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/login_chksts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getstfdt">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/getstfdt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gtmmbrdt">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/gtmmbrdt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbkdata">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/getbkdata" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LgInsrt">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/LgInsrt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="randomBooks">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/randomBooks" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectLibrary">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/SelectLibrary" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertLibrary">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/InsertLibrary" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertLibraryNoIMG">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/InsertLibraryNoIMG" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLibrary">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/UpdateLibrary" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLibraryNoIMG">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/UpdateLibraryNoIMG" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getItemImage">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/getItemImage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckLibrary">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/CheckLibrary" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCategoryName">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/GetCategoryName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLibrary">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/DeleteLibrary" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SearchLibrary">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/SearchLibrary" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertDigital">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/InsertDigital" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertDigitalNoIMG">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/InsertDigitalNoIMG" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDigital">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/UpdateDigital" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDigitalNoIMG">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/UpdateDigitalNoIMG" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectMember">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/SelectMember" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMemberImage">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/getMemberImage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertMember">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/InsertMember" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertMemberNoIMG">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/InsertMemberNoIMG" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckMember">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/CheckMember" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMember">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/UpdateMember" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateMemberNoIMG">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/UpdateMemberNoIMG" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteMember">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/DeleteMember" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SelectStaff">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/SelectStaff" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStaffImage">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/getStaffImage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertStaff">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/InsertStaff" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertStaffNoIMG">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/InsertStaffNoIMG" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckStaff">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/CheckStaff" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStaff">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/UpdateStaff" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateStaffNoIMG">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/UpdateStaffNoIMG" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteStaff">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/DeleteStaff" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="newtrans">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/newtrans" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="transldin">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/transldin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="transldex">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/transldex" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Selectin">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/Selectin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Selectex">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/Selectex" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="barrownw">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/barrownw" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="brrwls">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/brrwls" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StRes">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/StRes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="stResI">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/stResI" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mRes">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/mRes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StReq">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/StReq" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MStReq">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/MStReq" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mReq">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/mReq" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="mRqr">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/mRqr" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CuraService">
+    <wsdl:port name="BasicHttpBinding_ICuraService" binding="tns:BasicHttpBinding_ICuraService">
+      <soap:address location="http://localhost:9500/TestTcpService" />
+    </wsdl:port>
+    <wsdl:port name="NetTcpBinding_ICuraService" binding="tns:NetTcpBinding_ICuraService">
+      <soap12:address location="net.tcp://localhost:9600/TestHttpService" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:9600/TestHttpService</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <Upn>ASA-LAPTOP-MSI\asank</Upn>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

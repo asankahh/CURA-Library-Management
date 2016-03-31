@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="wcf">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="wcfResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="wcfResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="db">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="dbResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="dbResult" type="xs:boolean" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="login_chkusr">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="chkusr" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="login_chkusrResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="login_chkusrResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="login_chkpw">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="chkpw" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="login_chkpwResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="login_chkpwResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="login_chksts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="chksts" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="login_chkstsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="login_chkstsResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getstfdt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="usrnm" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getstfdtResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="getstfdtResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="gtmmbrdt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="usrnm" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="gtmmbrdtResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="gtmmbrdtResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getbkdata">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="bkid" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getbkdataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="getbkdataResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LgInsrt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="StaffID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Password" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="LgInsrtResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="LgInsrtResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="randomBooks">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="randomBooksResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="randomBooksResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectLibrary">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="category" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectLibraryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SelectLibraryResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertLibrary">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CuraID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Author" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ISBN" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Edition" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Publisher" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Year" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoOfPages" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Quantity" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gener" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Advisor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="img" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertLibraryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertLibraryResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertLibraryNoIMG">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CuraID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Author" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ISBN" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Edition" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Publisher" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Year" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoOfPages" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Quantity" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gener" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Advisor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertLibraryNoIMGResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertLibraryNoIMGResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateLibrary">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CuraID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Author" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ISBN" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Edition" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Publisher" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Year" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoOfPages" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Quantity" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gener" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Advisor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="img" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateLibraryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateLibraryResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateLibraryNoIMG">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CuraID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Author" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ISBN" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Edition" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Publisher" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Year" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoOfPages" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Quantity" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gener" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Advisor" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateLibraryNoIMGResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateLibraryNoIMGResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getItemImage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="itemID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getItemImageResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="getItemImageResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckLibrary">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sql" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckLibraryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CheckLibraryResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCategoryName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="categoryId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCategoryNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetCategoryNameResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteLibrary">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sql" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteLibraryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteLibraryResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchLibrary">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sql" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SearchLibraryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SearchLibraryResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertDigital">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CuraID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Author" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ISBN" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Edition" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Publisher" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Year" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoOfPages" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Quantity" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gener" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="img" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertDigitalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertDigitalResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertDigitalNoIMG">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CuraID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Author" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ISBN" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Edition" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Publisher" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Year" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoOfPages" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Quantity" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gener" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertDigitalNoIMGResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertDigitalNoIMGResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateDigital">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CuraID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Author" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ISBN" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Edition" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Publisher" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Year" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoOfPages" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Quantity" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gener" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="img" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateDigitalResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateDigitalResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateDigitalNoIMG">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CuraID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Author" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="ISBN" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Edition" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Publisher" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Category" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Year" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="NoOfPages" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Quantity" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gener" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateDigitalNoIMGResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateDigitalNoIMGResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectMember">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectMemberResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SelectMemberResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getMemberImage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="itemID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getMemberImageResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="getMemberImageResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertMember">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MemberID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PostalCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PersonalEmail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="WorkEmail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MobileNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="HomeNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Birthday" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Nationality" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="img" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertMemberResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertMemberResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertMemberNoIMG">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MemberID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PostalCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PersonalEmail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="WorkEmail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MobileNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="HomeNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Birthday" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Nationality" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertMemberNoIMGResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertMemberNoIMGResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckMember">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sql" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckMemberResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CheckMemberResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateMember">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MemberID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PostalCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PersonalEmail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="WorkEmail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MobileNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="HomeNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Birthday" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Nationality" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="img" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateMemberResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateMemberResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateMemberNoIMG">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MemberID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PostalCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PersonalEmail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="WorkEmail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MobileNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="HomeNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Birthday" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Nationality" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateMemberNoIMGResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateMemberNoIMGResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteMember">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sql" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteMemberResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteMemberResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectStaff">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectStaffResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SelectStaffResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getStaffImage">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="itemID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="getStaffImageResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="getStaffImageResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertStaff">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="StaffID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PostalCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PersonalEmail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MobileNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="HomeNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Birthday" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Nationality" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="img" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertStaffResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertStaffResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertStaffNoIMG">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="StaffID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PostalCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PersonalEmail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MobileNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="HomeNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Birthday" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Nationality" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InsertStaffNoIMGResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InsertStaffNoIMGResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckStaff">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sql" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckStaffResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CheckStaffResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateStaff">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="StaffID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PostalCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PersonalEmail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MobileNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="HomeNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Birthday" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Nationality" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="img" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateStaffResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateStaffResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateStaffNoIMG">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="StaffID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="FirstName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Address2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="City" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PostalCode" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="PersonalEmail" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="MobileNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="HomeNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Gender" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Birthday" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="Nationality" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="UpdateStaffNoIMGResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="UpdateStaffNoIMGResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteStaff">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="sql" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DeleteStaffResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="DeleteStaffResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="newtrans">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="cat" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="des" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="amt" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="newtransResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="newtransResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="transldin">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="transldinResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="transldinResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="transldex">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="transldexResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="transldexResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Selectin">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="month" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectinResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SelectinResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Selectex">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="month" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SelectexResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="SelectexResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="barrownw">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mid" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="bid" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="dp" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rt" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="barrownwResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="barrownwResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="brrwls">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="brrwlsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="brrwlsResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StRes">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StResResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="StResResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="stResI">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mbrID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="mbrnm" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rsbk" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rsdt" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="rqsdt" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="stResIResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="stResIResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mRes">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mResResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mResResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StReq">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ReqRply" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="StReqResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="StReqResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MStReq">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="MStReqResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="MStReqResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mReq">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mRq" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mReqResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mReqResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mRqr">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mRqrResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mRqrResult" nillable="true">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:appinfo>
+                <ActualType Name="DataTable" Namespace="http://schemas.datacontract.org/2004/07/System.Data" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+              </xs:appinfo>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+              <xs:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
