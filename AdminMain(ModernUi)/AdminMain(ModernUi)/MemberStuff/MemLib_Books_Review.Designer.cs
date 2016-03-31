@@ -133,7 +133,7 @@
             this.btn_cls.Name = "btn_cls";
             this.btn_cls.Size = new System.Drawing.Size(110, 29);
             this.btn_cls.TabIndex = 6;
-            this.btn_cls.Text = "Submit";
+            this.btn_cls.Text = "Close";
             this.btn_cls.UseSelectable = true;
             this.btn_cls.UseStyleColors = true;
             this.btn_cls.UseVisualStyleBackColor = true;

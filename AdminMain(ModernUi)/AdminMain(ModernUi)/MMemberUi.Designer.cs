@@ -41,6 +41,7 @@
             this.pb_rvws = new System.Windows.Forms.PictureBox();
             this.pb_lbrry = new System.Windows.Forms.PictureBox();
             this.pnl_sttng = new MetroFramework.Controls.MetroPanel();
+            this.lbl_1 = new MetroFramework.Controls.MetroLabel();
             this.lnk_lgot = new MetroFramework.Controls.MetroLink();
             this.btn_stylepally = new MetroFramework.Controls.MetroButton();
             this.cb_style = new MetroFramework.Controls.MetroComboBox();
@@ -66,7 +67,6 @@
             this.lbl_SUnm = new MetroFramework.Controls.MetroLabel();
             this.lbl_SNm = new MetroFramework.Controls.MetroLabel();
             this.pb_usrimg = new System.Windows.Forms.PictureBox();
-            this.lbl_1 = new MetroFramework.Controls.MetroLabel();
             ((System.ComponentModel.ISupportInitialize)(this.msm_member)).BeginInit();
             this.pnl_wlcm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_set)).BeginInit();
@@ -229,6 +229,15 @@
             this.pnl_sttng.VerticalScrollbarSize = 10;
             this.pnl_sttng.Visible = false;
             // 
+            // lbl_1
+            // 
+            this.lbl_1.AutoSize = true;
+            this.lbl_1.Location = new System.Drawing.Point(10, 225);
+            this.lbl_1.Name = "lbl_1";
+            this.lbl_1.Size = new System.Drawing.Size(18, 19);
+            this.lbl_1.TabIndex = 15;
+            this.lbl_1.Text = "st";
+            // 
             // lnk_lgot
             // 
             this.lnk_lgot.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -379,6 +388,7 @@
             // lbl_ct
             // 
             this.lbl_ct.AutoSize = true;
+            this.lbl_ct.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_ct.Location = new System.Drawing.Point(146, 344);
             this.lbl_ct.Name = "lbl_ct";
             this.lbl_ct.Size = new System.Drawing.Size(21, 19);
@@ -389,6 +399,7 @@
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
+            this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.metroLabel1.Location = new System.Drawing.Point(40, 344);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(31, 19);
@@ -399,6 +410,7 @@
             // lbl_add2
             // 
             this.lbl_add2.AutoSize = true;
+            this.lbl_add2.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_add2.Location = new System.Drawing.Point(146, 319);
             this.lbl_add2.Name = "lbl_add2";
             this.lbl_add2.Size = new System.Drawing.Size(21, 19);
@@ -409,6 +421,7 @@
             // lbl_ntnlty
             // 
             this.lbl_ntnlty.AutoSize = true;
+            this.lbl_ntnlty.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_ntnlty.Location = new System.Drawing.Point(146, 440);
             this.lbl_ntnlty.Name = "lbl_ntnlty";
             this.lbl_ntnlty.Size = new System.Drawing.Size(21, 19);
@@ -419,6 +432,7 @@
             // lbl_gndr
             // 
             this.lbl_gndr.AutoSize = true;
+            this.lbl_gndr.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_gndr.Location = new System.Drawing.Point(146, 407);
             this.lbl_gndr.Name = "lbl_gndr";
             this.lbl_gndr.Size = new System.Drawing.Size(21, 19);
@@ -429,6 +443,7 @@
             // lbl_bd
             // 
             this.lbl_bd.AutoSize = true;
+            this.lbl_bd.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_bd.Location = new System.Drawing.Point(146, 374);
             this.lbl_bd.Name = "lbl_bd";
             this.lbl_bd.Size = new System.Drawing.Size(21, 19);
@@ -439,6 +454,7 @@
             // lbl_add1
             // 
             this.lbl_add1.AutoSize = true;
+            this.lbl_add1.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_add1.Location = new System.Drawing.Point(146, 290);
             this.lbl_add1.Name = "lbl_add1";
             this.lbl_add1.Size = new System.Drawing.Size(21, 19);
@@ -449,6 +465,7 @@
             // lbl_mid
             // 
             this.lbl_mid.AutoSize = true;
+            this.lbl_mid.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_mid.Location = new System.Drawing.Point(146, 258);
             this.lbl_mid.Name = "lbl_mid";
             this.lbl_mid.Size = new System.Drawing.Size(21, 19);
@@ -459,6 +476,7 @@
             // lbl_nm
             // 
             this.lbl_nm.AutoSize = true;
+            this.lbl_nm.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_nm.Location = new System.Drawing.Point(146, 223);
             this.lbl_nm.Name = "lbl_nm";
             this.lbl_nm.Size = new System.Drawing.Size(21, 19);
@@ -469,6 +487,7 @@
             // lbl_Sntnlty
             // 
             this.lbl_Sntnlty.AutoSize = true;
+            this.lbl_Sntnlty.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_Sntnlty.Location = new System.Drawing.Point(40, 440);
             this.lbl_Sntnlty.Name = "lbl_Sntnlty";
             this.lbl_Sntnlty.Size = new System.Drawing.Size(71, 19);
@@ -479,6 +498,7 @@
             // lbl_Sgndr
             // 
             this.lbl_Sgndr.AutoSize = true;
+            this.lbl_Sgndr.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_Sgndr.Location = new System.Drawing.Point(40, 407);
             this.lbl_Sgndr.Name = "lbl_Sgndr";
             this.lbl_Sgndr.Size = new System.Drawing.Size(52, 19);
@@ -489,6 +509,7 @@
             // lbl_SBdy
             // 
             this.lbl_SBdy.AutoSize = true;
+            this.lbl_SBdy.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_SBdy.Location = new System.Drawing.Point(40, 374);
             this.lbl_SBdy.Name = "lbl_SBdy";
             this.lbl_SBdy.Size = new System.Drawing.Size(59, 19);
@@ -499,6 +520,7 @@
             // lbl_SAddrss
             // 
             this.lbl_SAddrss.AutoSize = true;
+            this.lbl_SAddrss.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_SAddrss.Location = new System.Drawing.Point(40, 290);
             this.lbl_SAddrss.Name = "lbl_SAddrss";
             this.lbl_SAddrss.Size = new System.Drawing.Size(56, 19);
@@ -509,6 +531,7 @@
             // lbl_SUnm
             // 
             this.lbl_SUnm.AutoSize = true;
+            this.lbl_SUnm.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_SUnm.Location = new System.Drawing.Point(40, 258);
             this.lbl_SUnm.Name = "lbl_SUnm";
             this.lbl_SUnm.Size = new System.Drawing.Size(76, 19);
@@ -519,6 +542,7 @@
             // lbl_SNm
             // 
             this.lbl_SNm.AutoSize = true;
+            this.lbl_SNm.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_SNm.Location = new System.Drawing.Point(40, 223);
             this.lbl_SNm.Name = "lbl_SNm";
             this.lbl_SNm.Size = new System.Drawing.Size(45, 19);
@@ -536,15 +560,6 @@
             this.pb_usrimg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_usrimg.TabIndex = 2;
             this.pb_usrimg.TabStop = false;
-            // 
-            // lbl_1
-            // 
-            this.lbl_1.AutoSize = true;
-            this.lbl_1.Location = new System.Drawing.Point(10, 225);
-            this.lbl_1.Name = "lbl_1";
-            this.lbl_1.Size = new System.Drawing.Size(18, 19);
-            this.lbl_1.TabIndex = 15;
-            this.lbl_1.Text = "st";
             // 
             // MMemberUi
             // 

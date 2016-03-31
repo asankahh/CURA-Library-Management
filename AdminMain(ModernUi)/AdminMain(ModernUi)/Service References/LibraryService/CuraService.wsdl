@@ -156,30 +156,6 @@
   <wsdl:message name="ICuraService_SearchLibrary_OutputMessage">
     <wsdl:part name="parameters" element="tns:SearchLibraryResponse" />
   </wsdl:message>
-  <wsdl:message name="ICuraService_InsertDigital_InputMessage">
-    <wsdl:part name="parameters" element="tns:InsertDigital" />
-  </wsdl:message>
-  <wsdl:message name="ICuraService_InsertDigital_OutputMessage">
-    <wsdl:part name="parameters" element="tns:InsertDigitalResponse" />
-  </wsdl:message>
-  <wsdl:message name="ICuraService_InsertDigitalNoIMG_InputMessage">
-    <wsdl:part name="parameters" element="tns:InsertDigitalNoIMG" />
-  </wsdl:message>
-  <wsdl:message name="ICuraService_InsertDigitalNoIMG_OutputMessage">
-    <wsdl:part name="parameters" element="tns:InsertDigitalNoIMGResponse" />
-  </wsdl:message>
-  <wsdl:message name="ICuraService_UpdateDigital_InputMessage">
-    <wsdl:part name="parameters" element="tns:UpdateDigital" />
-  </wsdl:message>
-  <wsdl:message name="ICuraService_UpdateDigital_OutputMessage">
-    <wsdl:part name="parameters" element="tns:UpdateDigitalResponse" />
-  </wsdl:message>
-  <wsdl:message name="ICuraService_UpdateDigitalNoIMG_InputMessage">
-    <wsdl:part name="parameters" element="tns:UpdateDigitalNoIMG" />
-  </wsdl:message>
-  <wsdl:message name="ICuraService_UpdateDigitalNoIMG_OutputMessage">
-    <wsdl:part name="parameters" element="tns:UpdateDigitalNoIMGResponse" />
-  </wsdl:message>
   <wsdl:message name="ICuraService_SelectMember_InputMessage">
     <wsdl:part name="parameters" element="tns:SelectMember" />
   </wsdl:message>
@@ -440,22 +416,6 @@
     <wsdl:operation name="SearchLibrary">
       <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/SearchLibrary" message="tns:ICuraService_SearchLibrary_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/SearchLibraryResponse" message="tns:ICuraService_SearchLibrary_OutputMessage" />
-    </wsdl:operation>
-    <wsdl:operation name="InsertDigital">
-      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/InsertDigital" message="tns:ICuraService_InsertDigital_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/InsertDigitalResponse" message="tns:ICuraService_InsertDigital_OutputMessage" />
-    </wsdl:operation>
-    <wsdl:operation name="InsertDigitalNoIMG">
-      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/InsertDigitalNoIMG" message="tns:ICuraService_InsertDigitalNoIMG_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/InsertDigitalNoIMGResponse" message="tns:ICuraService_InsertDigitalNoIMG_OutputMessage" />
-    </wsdl:operation>
-    <wsdl:operation name="UpdateDigital">
-      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/UpdateDigital" message="tns:ICuraService_UpdateDigital_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/UpdateDigitalResponse" message="tns:ICuraService_UpdateDigital_OutputMessage" />
-    </wsdl:operation>
-    <wsdl:operation name="UpdateDigitalNoIMG">
-      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/UpdateDigitalNoIMG" message="tns:ICuraService_UpdateDigitalNoIMG_InputMessage" />
-      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/UpdateDigitalNoIMGResponse" message="tns:ICuraService_UpdateDigitalNoIMG_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="SelectMember">
       <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/SelectMember" message="tns:ICuraService_SelectMember_InputMessage" />
@@ -753,42 +713,6 @@
     </wsdl:operation>
     <wsdl:operation name="SearchLibrary">
       <soap:operation soapAction="http://tempuri.org/ICuraService/SearchLibrary" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="InsertDigital">
-      <soap:operation soapAction="http://tempuri.org/ICuraService/InsertDigital" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="InsertDigitalNoIMG">
-      <soap:operation soapAction="http://tempuri.org/ICuraService/InsertDigitalNoIMG" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="UpdateDigital">
-      <soap:operation soapAction="http://tempuri.org/ICuraService/UpdateDigital" style="document" />
-      <wsdl:input>
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="UpdateDigitalNoIMG">
-      <soap:operation soapAction="http://tempuri.org/ICuraService/UpdateDigitalNoIMG" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -1243,42 +1167,6 @@
     </wsdl:operation>
     <wsdl:operation name="SearchLibrary">
       <soap12:operation soapAction="http://tempuri.org/ICuraService/SearchLibrary" style="document" />
-      <wsdl:input>
-        <soap12:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap12:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="InsertDigital">
-      <soap12:operation soapAction="http://tempuri.org/ICuraService/InsertDigital" style="document" />
-      <wsdl:input>
-        <soap12:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap12:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="InsertDigitalNoIMG">
-      <soap12:operation soapAction="http://tempuri.org/ICuraService/InsertDigitalNoIMG" style="document" />
-      <wsdl:input>
-        <soap12:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap12:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="UpdateDigital">
-      <soap12:operation soapAction="http://tempuri.org/ICuraService/UpdateDigital" style="document" />
-      <wsdl:input>
-        <soap12:body use="literal" />
-      </wsdl:input>
-      <wsdl:output>
-        <soap12:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="UpdateDigitalNoIMG">
-      <soap12:operation soapAction="http://tempuri.org/ICuraService/UpdateDigitalNoIMG" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>

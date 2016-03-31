@@ -126,13 +126,13 @@ namespace AdminMain_ModernUi_.LibCat.Digi
 
                         if (pb_insert.Image == null || img == null)
                         {
-                            count1 = client.InsertLibraryNoIMG(txt_ID.Text, txt_Name.Text, txt_Author.Text, txt_ISBN.Text, txt_Edition.Text, txt_Publisher.Text, cb_Catagory.Text, cb_Year.Text, txt_pageCount.Text, txt_Quantity.Text, txt_Gener.Text, txt_Advisor.Text, txt_Description.Text);
+                            count1 = client.InsertLibraryNoIMG(txt_ID.Text, txt_Name.Text, txt_Author.Text, txt_ISBN.Text, txt_Edition.Text, txt_Publisher.Text, cb_Catagory.Text, cb_Year.Text, txt_pageCount.Text, txt_Quantity.Text, txt_Gener.Text, null ,txt_Description.Text);
 
                             //count1 = client.InsertLibraryNoIMG(txt_ID.Text, txt_Name.Text, txt_Author.Text, txt_ISBN.Text, txt_Edition.Text, txt_Publisher.Text, cb_Catagory.Text, cb_Year.Text, txt_pageCount.Text, txt_Quantity.Text, txt_Gener.Text, txt_Description.Text);
                         }
                         else
                         {
-                            count = client.InsertLibrary(txt_ID.Text, txt_Name.Text, txt_Author.Text, txt_ISBN.Text, txt_Edition.Text, txt_Publisher.Text, cb_Catagory.Text, cb_Year.Text, txt_pageCount.Text, txt_Quantity.Text, txt_Gener.Text, txt_Advisor.Text, txt_Description.Text, img);
+                            count = client.InsertLibrary(txt_ID.Text, txt_Name.Text, txt_Author.Text, txt_ISBN.Text, txt_Edition.Text, txt_Publisher.Text, cb_Catagory.Text, cb_Year.Text, txt_pageCount.Text, txt_Quantity.Text, txt_Gener.Text, null ,txt_Description.Text, img);
 
                             //count = client.InsertLibrary(txt_ID.Text, txt_Name.Text, txt_Author.Text, txt_ISBN.Text, txt_Edition.Text, txt_Publisher.Text, cb_Catagory.Text, cb_Year.Text, txt_pageCount.Text, txt_Quantity.Text, txt_Gener.Text, txt_Description.Text, img);
                         }

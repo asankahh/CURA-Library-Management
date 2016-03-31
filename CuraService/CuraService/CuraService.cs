@@ -997,11 +997,11 @@ namespace CuraService
 
         public int barrownw(string mid, string bid, string dp, string rt)
         {
-            int r = 0;
+            
             conn.Open();
             string qryin = "INSERT INTO Barrowals (Member_ID,Library_ID,Barrow_Date,Return_Date)VALUES('" +mid+ "','" +bid+ "','" +dp + "','" +rt+ "')";
             SqlCommand cmd = new SqlCommand(qryin,conn);
-            r = cmd.ExecuteNonQuery();
+            int r = cmd.ExecuteNonQuery();
             conn.Close();
             return r ;
         }
@@ -1035,11 +1035,11 @@ namespace CuraService
 
         public int stResI(string mbrID, string mbrnm, string rsbk, string rsdt, string rqsdt)
         {
-            int re = 0;
+            
             conn.Open();
             string qryRes = "INSERT INTO Reservation (Member_ID,Member_Name,Reserved_Date,Requested_date,)VALUES('" + mbrID + "','" + mbrnm + "','" + rsbk + "','" + rsdt + "','" + rqsdt + "')";
             SqlCommand cmdResI = new SqlCommand(qryRes, conn);
-            re = cmdResI.ExecuteNonQuery();
+            int re = cmdResI.ExecuteNonQuery();
             return re;
         }
 
@@ -1049,7 +1049,7 @@ namespace CuraService
             conn.Open();
             string qrymRes = "SELECT * FROM Reservation ";
             SqlCommand cmdmRes = new SqlCommand(qrymRes,conn);
-            SqlDataAdapter SDAmRes = new SqlDataAdapter();
+            SqlDataAdapter SDAmRes = new SqlDataAdapter(cmdmRes);
             SDAmRes.Fill(DTmRes);
             conn.Close();
             return DTmRes;
@@ -1058,11 +1058,11 @@ namespace CuraService
         public int StReq(string ReqRply)
         {
 
-            int Rq = 0;
+            
             conn.Open();
             string qryRepMsg = "INSERT INTO Request_OR_Complain (Reply)'"+ ReqRply + "',";
             SqlCommand cmdStReq = new SqlCommand(qryRepMsg,conn);
-            Rq = cmdStReq.ExecuteNonQuery();
+            int Rq = cmdStReq.ExecuteNonQuery();
             conn.Close();
             return Rq;   
                      
@@ -1278,9 +1278,6 @@ namespace CuraService
         public DataTable randomBooks()
         {
             DataTable randombooks = new DataTable("Random Books");
-            randombooks.Columns.Add("Name", typeof(string));
-            randombooks.Columns.Add("Author", typeof(string));
-            randombooks.Columns.Add("Image", typeof(byte[]));
             var rnd = new rndmbks();
             randombooks = rnd.rndm();
             return randombooks;
@@ -1288,7 +1285,27 @@ namespace CuraService
 
         string ICuraService.GetCategoryName(string categoryId)
         {
-            throw new NotImplementedException();
+            try
+            {
+                //SqlConnection con = GetConnection();
+                string sql = "SELECT l_Category_Name FROM library_category WHERE l_category_id='" + categoryId + "'";
+                SqlCommand cmd = new SqlCommand(sql, conn);
+                //cmd.Parameters.AddWithValue("@id", categoryId);
+                conn.Open();
+                SqlDataReader dr = cmd.ExecuteReader();
+                if (dr.Read())
+                {
+                    return dr["l_Category_Name"].ToString();
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            finally
+            {
+                conn.Close();
+            }
         }
     }
 }

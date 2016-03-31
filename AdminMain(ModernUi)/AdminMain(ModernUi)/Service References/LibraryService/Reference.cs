@@ -135,30 +135,6 @@ namespace AdminMain_ModernUi_.LibraryService {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/SearchLibrary", ReplyAction="http://tempuri.org/ICuraService/SearchLibraryResponse")]
         System.Threading.Tasks.Task<System.Data.DataTable> SearchLibraryAsync(string sql);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/InsertDigital", ReplyAction="http://tempuri.org/ICuraService/InsertDigitalResponse")]
-        int InsertDigital(string CuraID, string Name, string Author, string ISBN, string Edition, string Publisher, string Category, string Year, string NoOfPages, string Quantity, string Gener, string Description, byte[] img);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/InsertDigital", ReplyAction="http://tempuri.org/ICuraService/InsertDigitalResponse")]
-        System.Threading.Tasks.Task<int> InsertDigitalAsync(string CuraID, string Name, string Author, string ISBN, string Edition, string Publisher, string Category, string Year, string NoOfPages, string Quantity, string Gener, string Description, byte[] img);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/InsertDigitalNoIMG", ReplyAction="http://tempuri.org/ICuraService/InsertDigitalNoIMGResponse")]
-        int InsertDigitalNoIMG(string CuraID, string Name, string Author, string ISBN, string Edition, string Publisher, string Category, string Year, string NoOfPages, string Quantity, string Gener, string Description);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/InsertDigitalNoIMG", ReplyAction="http://tempuri.org/ICuraService/InsertDigitalNoIMGResponse")]
-        System.Threading.Tasks.Task<int> InsertDigitalNoIMGAsync(string CuraID, string Name, string Author, string ISBN, string Edition, string Publisher, string Category, string Year, string NoOfPages, string Quantity, string Gener, string Description);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/UpdateDigital", ReplyAction="http://tempuri.org/ICuraService/UpdateDigitalResponse")]
-        int UpdateDigital(string CuraID, string Name, string Author, string ISBN, string Edition, string Publisher, string Category, string Year, string NoOfPages, string Quantity, string Gener, string Description, byte[] img);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/UpdateDigital", ReplyAction="http://tempuri.org/ICuraService/UpdateDigitalResponse")]
-        System.Threading.Tasks.Task<int> UpdateDigitalAsync(string CuraID, string Name, string Author, string ISBN, string Edition, string Publisher, string Category, string Year, string NoOfPages, string Quantity, string Gener, string Description, byte[] img);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/UpdateDigitalNoIMG", ReplyAction="http://tempuri.org/ICuraService/UpdateDigitalNoIMGResponse")]
-        int UpdateDigitalNoIMG(string CuraID, string Name, string Author, string ISBN, string Edition, string Publisher, string Category, string Year, string NoOfPages, string Quantity, string Gener, string Description);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/UpdateDigitalNoIMG", ReplyAction="http://tempuri.org/ICuraService/UpdateDigitalNoIMGResponse")]
-        System.Threading.Tasks.Task<int> UpdateDigitalNoIMGAsync(string CuraID, string Name, string Author, string ISBN, string Edition, string Publisher, string Category, string Year, string NoOfPages, string Quantity, string Gener, string Description);
-        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/SelectMember", ReplyAction="http://tempuri.org/ICuraService/SelectMemberResponse")]
         System.Data.DataTable SelectMember();
         
@@ -525,38 +501,6 @@ namespace AdminMain_ModernUi_.LibraryService {
         
         public System.Threading.Tasks.Task<System.Data.DataTable> SearchLibraryAsync(string sql) {
             return base.Channel.SearchLibraryAsync(sql);
-        }
-        
-        public int InsertDigital(string CuraID, string Name, string Author, string ISBN, string Edition, string Publisher, string Category, string Year, string NoOfPages, string Quantity, string Gener, string Description, byte[] img) {
-            return base.Channel.InsertDigital(CuraID, Name, Author, ISBN, Edition, Publisher, Category, Year, NoOfPages, Quantity, Gener, Description, img);
-        }
-        
-        public System.Threading.Tasks.Task<int> InsertDigitalAsync(string CuraID, string Name, string Author, string ISBN, string Edition, string Publisher, string Category, string Year, string NoOfPages, string Quantity, string Gener, string Description, byte[] img) {
-            return base.Channel.InsertDigitalAsync(CuraID, Name, Author, ISBN, Edition, Publisher, Category, Year, NoOfPages, Quantity, Gener, Description, img);
-        }
-        
-        public int InsertDigitalNoIMG(string CuraID, string Name, string Author, string ISBN, string Edition, string Publisher, string Category, string Year, string NoOfPages, string Quantity, string Gener, string Description) {
-            return base.Channel.InsertDigitalNoIMG(CuraID, Name, Author, ISBN, Edition, Publisher, Category, Year, NoOfPages, Quantity, Gener, Description);
-        }
-        
-        public System.Threading.Tasks.Task<int> InsertDigitalNoIMGAsync(string CuraID, string Name, string Author, string ISBN, string Edition, string Publisher, string Category, string Year, string NoOfPages, string Quantity, string Gener, string Description) {
-            return base.Channel.InsertDigitalNoIMGAsync(CuraID, Name, Author, ISBN, Edition, Publisher, Category, Year, NoOfPages, Quantity, Gener, Description);
-        }
-        
-        public int UpdateDigital(string CuraID, string Name, string Author, string ISBN, string Edition, string Publisher, string Category, string Year, string NoOfPages, string Quantity, string Gener, string Description, byte[] img) {
-            return base.Channel.UpdateDigital(CuraID, Name, Author, ISBN, Edition, Publisher, Category, Year, NoOfPages, Quantity, Gener, Description, img);
-        }
-        
-        public System.Threading.Tasks.Task<int> UpdateDigitalAsync(string CuraID, string Name, string Author, string ISBN, string Edition, string Publisher, string Category, string Year, string NoOfPages, string Quantity, string Gener, string Description, byte[] img) {
-            return base.Channel.UpdateDigitalAsync(CuraID, Name, Author, ISBN, Edition, Publisher, Category, Year, NoOfPages, Quantity, Gener, Description, img);
-        }
-        
-        public int UpdateDigitalNoIMG(string CuraID, string Name, string Author, string ISBN, string Edition, string Publisher, string Category, string Year, string NoOfPages, string Quantity, string Gener, string Description) {
-            return base.Channel.UpdateDigitalNoIMG(CuraID, Name, Author, ISBN, Edition, Publisher, Category, Year, NoOfPages, Quantity, Gener, Description);
-        }
-        
-        public System.Threading.Tasks.Task<int> UpdateDigitalNoIMGAsync(string CuraID, string Name, string Author, string ISBN, string Edition, string Publisher, string Category, string Year, string NoOfPages, string Quantity, string Gener, string Description) {
-            return base.Channel.UpdateDigitalNoIMGAsync(CuraID, Name, Author, ISBN, Edition, Publisher, Category, Year, NoOfPages, Quantity, Gener, Description);
         }
         
         public System.Data.DataTable SelectMember() {

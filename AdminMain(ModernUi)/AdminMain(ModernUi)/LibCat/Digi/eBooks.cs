@@ -144,13 +144,13 @@ namespace AdminMain_ModernUi_.LibCat.Digi
 
                         if (pb_editEbook.Image == null || img == null)
                         {
-                            count1 = client.UpdateLibraryNoIMG(txt_editID.Text, txt_editName.Text, txt_editAuthor.Text, txt_editISBN.Text, txt_editEdition.Text, txt_editPublisher.Text, cb_editCatagory.Text, cb_editYear.Text, txt_editNoOfPage.Text, txt_editQuantity.Text, txt_editGener.Text, txt_editAdvisor.Text, txt_editDescription.Text);
+                            count1 = client.UpdateLibraryNoIMG(txt_editID.Text, txt_editName.Text, txt_editAuthor.Text, txt_editISBN.Text, txt_editEdition.Text, txt_editPublisher.Text, cb_editCatagory.Text, cb_editYear.Text, txt_editNoOfPage.Text, txt_editQuantity.Text, txt_editGener.Text, null, txt_editDescription.Text);
 
                             //count1 = client.UpdateDigitalNoIMG(txt_editID.Text, txt_editName.Text, txt_editAuthor.Text, txt_editISBN.Text, txt_editEdition.Text, txt_editPublisher.Text, cb_editCatagory.Text, cb_editYear.Text, txt_editNoOfPage.Text, txt_editQuantity.Text, txt_editGener.Text, txt_editDescription.Text);
                         }
                         else
                         {
-                            count = client.UpdateLibrary(txt_editID.Text, txt_editName.Text, txt_editAuthor.Text, txt_editISBN.Text, txt_editEdition.Text, txt_editPublisher.Text, cb_editCatagory.Text, cb_editYear.Text, txt_editNoOfPage.Text, txt_editQuantity.Text, txt_editGener.Text, txt_editAdvisor.Text, txt_editDescription.Text, img);
+                            count = client.UpdateLibrary(txt_editID.Text, txt_editName.Text, txt_editAuthor.Text, txt_editISBN.Text, txt_editEdition.Text, txt_editPublisher.Text, cb_editCatagory.Text, cb_editYear.Text, txt_editNoOfPage.Text, txt_editQuantity.Text, txt_editGener.Text, null, txt_editDescription.Text, img);
 
                             // count = client.UpdateDigital(txt_editID.Text, txt_editName.Text, txt_editAuthor.Text, txt_editISBN.Text, txt_editEdition.Text, txt_editPublisher.Text, cb_editCatagory.Text, cb_editYear.Text, txt_editNoOfPage.Text, txt_editQuantity.Text, txt_editGener.Text, txt_editDescription.Text, img);
                         }

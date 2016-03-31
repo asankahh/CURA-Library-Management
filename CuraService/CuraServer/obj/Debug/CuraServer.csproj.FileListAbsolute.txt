@@ -38,3 +38,11 @@ C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\C
 C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\CuraService\CuraServer\bin\Debug\CuraService.dll
 C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\CuraService\CuraServer\bin\Debug\CuraService.pdb
 C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\CuraService\CuraServer\obj\Debug\CuraServer.csprojResolveAssemblyReference.cache
+F:\CLZ ROOM\Git\CURA\CuraService\CuraServer\bin\Debug\CuraServer.exe.config
+F:\CLZ ROOM\Git\CURA\CuraService\CuraServer\obj\Debug\CuraServer.exe
+F:\CLZ ROOM\Git\CURA\CuraService\CuraServer\obj\Debug\CuraServer.pdb
+F:\CLZ ROOM\Git\CURA\CuraService\CuraServer\bin\Debug\CuraServer.exe
+F:\CLZ ROOM\Git\CURA\CuraService\CuraServer\bin\Debug\CuraServer.pdb
+F:\CLZ ROOM\Git\CURA\CuraService\CuraServer\bin\Debug\CuraService.dll
+F:\CLZ ROOM\Git\CURA\CuraService\CuraServer\bin\Debug\CuraService.pdb
+F:\CLZ ROOM\Git\CURA\CuraService\CuraServer\obj\Debug\CuraServer.csprojResolveAssemblyReference.cache
