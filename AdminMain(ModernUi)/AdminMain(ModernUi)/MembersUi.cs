@@ -214,8 +214,8 @@ namespace AdminMain_ModernUi_
 
                 lbl_memberName.Text = row.Cells["FirstName"].Value.ToString();
                 lbl_memberDOB.Text = row.Cells["Birthday"].Value.ToString();
-                lbl_memberAdd1.Text = row.Cells["Address"].Value.ToString();
-                lbl_memberAdd2.Text = row.Cells["Address1"].Value.ToString();
+                lbl_memberAdd1.Text = row.Cells["Add_L1"].Value.ToString();
+                lbl_memberAdd2.Text = row.Cells["Add_L1"].Value.ToString();
                 lbl_memberCity.Text = row.Cells["City"].Value.ToString();
                 lbl_memberGender.Text = row.Cells["Gender"].Value.ToString();
                 lbl_memberNationality.Text = row.Cells["Nationality"].Value.ToString();
@@ -225,8 +225,8 @@ namespace AdminMain_ModernUi_
                 itemID = txt_editID.Text;
                 txt_editFname.Text = row.Cells["FirstName"].Value.ToString();
                 txt_editLname.Text = row.Cells["LastName"].Value.ToString(); 
-                txt_editAdd1.Text = row.Cells["Address"].Value.ToString();
-                txt_editAdd2.Text = row.Cells["Address1"].Value.ToString();
+                txt_editAdd1.Text = row.Cells["Add_L1"].Value.ToString();
+                txt_editAdd2.Text = row.Cells["Add_L2"].Value.ToString();
                 txt_editCity.Text = row.Cells["City"].Value.ToString();
                 txt_editPcode.Text = row.Cells["Postalcode"].Value.ToString();
                 txt_editPemail.Text = row.Cells["PersonalEmail"].Value.ToString();
