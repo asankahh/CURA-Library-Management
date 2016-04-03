@@ -281,5 +281,125 @@ namespace CuraService.methods
             conn.Close();
             return i;
         }
+
+        public DataTable RequestView()
+        {
+            DataTable DTmRq = new DataTable("Request_OR_Complain", "AllRequest_OR_Complain");
+            conn.Open();
+            string qrymRq = "SELECT Date,Request,Reply FROM Request_OR_Complain";
+            SqlCommand cmdmRq = new SqlCommand(qrymRq, conn);
+            SqlDataAdapter SDAmRq = new SqlDataAdapter(cmdmRq);
+            SDAmRq.Fill(DTmRq);
+            conn.Close();
+            return DTmRq;
+        }
+
+        public DataTable StaffviewReq()
+        {
+            DataTable DTReq = new DataTable("Request_OR_Complain", "AllRequest_OR_Complain");
+            conn.Open();
+            string qryReq = "SELECT  Member_ID,Member_Name,Request FROM Request_OR_Complain";
+            SqlCommand cmdReq = new SqlCommand(qryReq, conn);
+            SqlDataAdapter SDAReq = new SqlDataAdapter(cmdReq);
+            SDAReq.Fill(DTReq);
+            conn.Close();
+            return DTReq;
+        }
+
+        public int StfRplyRq(string ReqRply)
+        {
+            conn.Open();
+            string qryRepMsg = "INSERT INTO Request_OR_Complain (Reply)'" + ReqRply + "',";
+            SqlCommand cmdStReq = new SqlCommand(qryRepMsg, conn);
+            int Rq = cmdStReq.ExecuteNonQuery();
+            conn.Close();
+            return Rq;
+        }
+
+        public DataTable ViewRes()
+        {
+            DataTable DTmRes = new DataTable("Reservation", "AllReservaion");
+            conn.Open();
+            string qrymRes = "SELECT * FROM Reservation ";
+            SqlCommand cmdmRes = new SqlCommand(qrymRes, conn);
+            SqlDataAdapter SDAmRes = new SqlDataAdapter(cmdmRes);
+            SDAmRes.Fill(DTmRes);
+            conn.Close();
+            return DTmRes;
+        }
+
+        public DataTable Reservation()
+        {
+            DataTable DTRes = new DataTable("Reservation", "AllReservation");
+            conn.Open();
+            string qryRes = "SELECT* FROM Reservation ";
+            SqlCommand cmdRes = new SqlCommand(qryRes, conn);
+            SqlDataAdapter sdaRes = new SqlDataAdapter();
+            sdaRes.SelectCommand = cmdRes;
+            sdaRes.Fill(DTRes);
+            conn.Close();
+            return DTRes;
+        }
+
+        public DataTable ViewBarrowal()
+        {
+            DataTable DTfl = new DataTable("Barrowals", "AllBarrowals");
+            conn.Open();
+            string qry = "SELECT * FROM Barrowals";
+            SqlCommand cmd = new SqlCommand(qry, conn);
+            SqlDataAdapter SDAfl = new SqlDataAdapter();
+            SDAfl.SelectCommand = cmd;
+            SDAfl.Fill(DTfl);
+            conn.Close();
+            return DTfl;
+        }
+
+        public DataTable ViewExpences(string month)
+        {
+            DataTable DTex = new DataTable("Transaction", "TransactionExpence");
+            conn.Open();
+            string qryex = "SELECT Date,Amount FROM Transactions WHERE DATEPART(MONTH,Date) ='" + month + "'AND Type = 'Expence'";
+            SqlCommand cmdex = new SqlCommand(qryex, conn);
+            SqlDataAdapter sdaex = new SqlDataAdapter();
+            sdaex.SelectCommand = cmdex;
+            sdaex.Fill(DTex);
+            conn.Close();
+            return DTex;
+        }
+
+        public DataTable ViewIncome(string month)
+        {
+            DataTable DTin = new DataTable("Transaction", "TransactionIncome");
+            conn.Open();
+            string qryin = "SELECT Date,Amount FROM Transactions WHERE DATEPART(MONTH,Date) ='" + month + "'AND Type = 'Income'";
+            SqlCommand cmdin = new SqlCommand(qryin, conn);
+            SqlDataAdapter sdain = new SqlDataAdapter(cmdin);
+            sdain.SelectCommand = cmdin;
+            sdain.Fill(DTin);
+            conn.Close();
+            return DTin;
+        }
+
+        public DataTable SelectALLExpences()
+        {
+            DataTable transex = new DataTable("Transactions", "AllTransactions");
+            conn.Open();
+            string qryex = "SELECT Type,Amount FROM Transactions WHERE Type='Expence'";
+            SqlDataAdapter SDAex = new SqlDataAdapter(qryex, conn);
+            SDAex.Fill(transex);
+            conn.Close();
+            return transex;
+        }
+
+        public DataTable SelectALLIncome()
+        {
+            DataTable transin = new DataTable("Transactions", "AllTransactions");
+            conn.Open();
+            string qryin = "SELECT Type,Amount FROM Transactions WHERE Type='Income'";
+            SqlDataAdapter SDAin = new SqlDataAdapter(qryin, conn);
+            SDAin.Fill(transin);
+            conn.Close();
+            return transin;
+        }
     }
 }
