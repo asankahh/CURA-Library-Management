@@ -97,7 +97,7 @@ namespace AdminMain_ModernUi_
 
         private void gridview_Staff_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            string itemid = "";
+            //string itemid = "";
             if (e.RowIndex >= 0)
             {
                 DataGridViewRow row = this.gridview_Staff.Rows[e.RowIndex];

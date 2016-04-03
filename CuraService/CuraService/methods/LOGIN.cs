@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,6 +16,9 @@ namespace CuraService.methods
         /* create secondary database object */
         SqlConnection conn = new SqlConnection(dbstrng);
 
+        public static string encrptdpw;
+        CRYPTO crpt = new CRYPTO();
+
         public int chkusravl(string chkusr)
         {
             conn.Open();
@@ -24,20 +29,22 @@ namespace CuraService.methods
             return avl;
         }
 
-        public string GetUsrPW(string chkpw)
+        public string GetUsrPW(string chkusr)
         {
             conn.Open();
-            string qry = "SELECT Password FROM LoginDetails WHERE UserName='" + chkpw + "'";
+            string qry = "SELECT Password FROM LoginDetails WHERE UserName='" + chkusr + "'";
             SqlCommand cmd = new SqlCommand(qry, conn);
-            string pwcnfm = cmd.ExecuteScalar().ToString();
+            encrptdpw = cmd.ExecuteScalar().ToString();
             conn.Close();
-            return pwcnfm;
+            string decrptdpw = crpt.decrypt(encrptdpw);
+            return decrptdpw;
+            //return encrptdpw;
         }
 
-        public string ChkAuth(string chksts)
+        public string ChkAuth(string chkusr)
         {
             conn.Open();
-            string qry = "SELECT States FROM LoginDetails WHERE UserName='" + chksts + "'";
+            string qry = "SELECT States FROM LoginDetails WHERE UserName='" + chkusr + "'";
             SqlCommand cmd = new SqlCommand(qry, conn);
             string stts = cmd.ExecuteScalar().ToString();
             conn.Close();

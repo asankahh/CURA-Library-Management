@@ -16,11 +16,11 @@ namespace CuraService.methods
         /* create secondary database object */
         SqlConnection conn = new SqlConnection(dbstrng);
 
-        public int LoginInsert(string StaffID, string UserName, string Password, string Category)
+        public int LoginInsert(string StaffID, string UserName, string crypted, string Category)
         {
             int cnfrm = 0;
             conn.Open();
-            string qryinsrt = "INSERT INTO LoginDetails(ID, UserName,Password,States) VALUES('" + StaffID + "','" + UserName + "','" + Password + "','" + Category + "')";
+            string qryinsrt = "INSERT INTO LoginDetails(ID, UserName,Password,States) VALUES('" + StaffID + "','" + UserName + "','" + crypted + "','" + Category + "')";
             SqlCommand cmd = new SqlCommand(qryinsrt, conn);
             cnfrm = cmd.ExecuteNonQuery();
             conn.Close();

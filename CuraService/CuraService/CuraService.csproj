@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Base32Encoder">
+      <HintPath>C:\Users\asank\Desktop\Base32Encoder.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
@@ -46,6 +49,7 @@
     <Compile Include="CuraService.cs" />
     <Compile Include="ICuraService.cs" />
     <Compile Include="methods\CONN.cs" />
+    <Compile Include="methods\CRYPTO.cs" />
     <Compile Include="methods\DELETE.cs" />
     <Compile Include="methods\INSERT.cs" />
     <Compile Include="methods\LOGIN.cs" />

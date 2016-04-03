@@ -3,6 +3,8 @@ using System.Data.SqlClient;
 using System.Data;
 using System.IO;
 using CuraService.methods;
+using System.Text;
+using System.Security.Cryptography;
 
 namespace CuraService
 {
@@ -21,6 +23,7 @@ namespace CuraService
         UPDATE updt = new UPDATE();
         LOGIN lgn = new LOGIN();
         rndmbks rnd = new rndmbks();
+        CRYPTO crpt = new CRYPTO();
 
         public bool wcf()
         {
@@ -45,6 +48,8 @@ namespace CuraService
         {
             int avl = lgn.chkusravl(chkusr);
             return avl;
+
+
         }        
 
         public string login_chkpw(string chkpw)
@@ -209,7 +214,6 @@ namespace CuraService
 
         public int DeleteLibrary(string sql)
         {
-            //SqlConnection con = GetConnection();
             string qrydl = "DELETE FROM Library WHERE Library_ID='" + sql + "' ";
             SqlCommand cmd = new SqlCommand(qrydl, conn);
             conn.Open();
@@ -412,13 +416,14 @@ namespace CuraService
         {
             DataTable DTmRq = slct.RequestView();
             return DTmRq;
-        }
-
+        }        
+        
         public int LgInsrt(string StaffID, string UserName, string Password, string Category)
         {
-            int cnfrm = insrt.LoginInsert(StaffID, UserName, Password, Category);
+            string encryptd = crpt.encrypt(Password);
+            int cnfrm = insrt.LoginInsert(StaffID, UserName, encryptd, Category);
             return cnfrm;
-        }
+        }        
 
         public DataTable randomBooks()
         {

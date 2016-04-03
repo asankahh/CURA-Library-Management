@@ -39,8 +39,8 @@ namespace AdminMain_ModernUi_
 
         private void btn_lgn_Click(object sender, EventArgs e)
         {
+            AcceptButton = btn_lgn;
             loginmethod();
-
         }
 
         
@@ -74,7 +74,7 @@ namespace AdminMain_ModernUi_
 
         private void loginmethod()
         {
-            AcceptButton = btn_lgn;
+            
             chkusr = txt_un.Text; /*assign textbox to string to pass server*/
             int avl = client.login_chkusr(chkusr);/* Pass string to server and get return value then assign it to var */
             if (avl == 1)
