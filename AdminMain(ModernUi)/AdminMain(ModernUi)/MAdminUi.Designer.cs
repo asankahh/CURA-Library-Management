@@ -366,13 +366,11 @@
             // rb_lght
             // 
             this.rb_lght.AutoSize = true;
-            this.rb_lght.Checked = true;
             this.rb_lght.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
             this.rb_lght.Location = new System.Drawing.Point(89, 199);
             this.rb_lght.Name = "rb_lght";
             this.rb_lght.Size = new System.Drawing.Size(56, 19);
             this.rb_lght.TabIndex = 9;
-            this.rb_lght.TabStop = true;
             this.rb_lght.Text = "Light";
             this.rb_lght.UseSelectable = true;
             this.rb_lght.CheckedChanged += new System.EventHandler(this.rb_lght_CheckedChanged);
@@ -380,11 +378,13 @@
             // rb_drk
             // 
             this.rb_drk.AutoSize = true;
+            this.rb_drk.Checked = true;
             this.rb_drk.FontSize = MetroFramework.MetroCheckBoxSize.Medium;
             this.rb_drk.Location = new System.Drawing.Point(10, 199);
             this.rb_drk.Name = "rb_drk";
             this.rb_drk.Size = new System.Drawing.Size(54, 19);
             this.rb_drk.TabIndex = 9;
+            this.rb_drk.TabStop = true;
             this.rb_drk.Text = "Dark";
             this.rb_drk.UseSelectable = true;
             this.rb_drk.CheckedChanged += new System.EventHandler(this.rb_drk_CheckedChanged);

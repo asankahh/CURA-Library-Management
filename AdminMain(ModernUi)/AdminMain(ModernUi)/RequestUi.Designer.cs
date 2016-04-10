@@ -69,6 +69,7 @@
             this.lnkRqsts.Text = "⬅  Requests";
             this.lnkRqsts.UseSelectable = true;
             this.lnkRqsts.UseStyleColors = true;
+            this.lnkRqsts.Click += new System.EventHandler(this.lnkRqsts_Click);
             // 
             // metroPanel1
             // 

@@ -41,7 +41,6 @@
             this.pb_rvws = new System.Windows.Forms.PictureBox();
             this.pb_lbrry = new System.Windows.Forms.PictureBox();
             this.pnl_sttng = new MetroFramework.Controls.MetroPanel();
-            this.lbl_1 = new MetroFramework.Controls.MetroLabel();
             this.lnk_lgot = new MetroFramework.Controls.MetroLink();
             this.btn_stylepally = new MetroFramework.Controls.MetroButton();
             this.cb_style = new MetroFramework.Controls.MetroComboBox();
@@ -206,7 +205,6 @@
             // 
             this.pnl_sttng.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pnl_sttng.BackColor = System.Drawing.Color.Transparent;
-            this.pnl_sttng.Controls.Add(this.lbl_1);
             this.pnl_sttng.Controls.Add(this.lnk_lgot);
             this.pnl_sttng.Controls.Add(this.btn_stylepally);
             this.pnl_sttng.Controls.Add(this.cb_style);
@@ -228,15 +226,6 @@
             this.pnl_sttng.VerticalScrollbarHighlightOnWheel = false;
             this.pnl_sttng.VerticalScrollbarSize = 10;
             this.pnl_sttng.Visible = false;
-            // 
-            // lbl_1
-            // 
-            this.lbl_1.AutoSize = true;
-            this.lbl_1.Location = new System.Drawing.Point(10, 225);
-            this.lbl_1.Name = "lbl_1";
-            this.lbl_1.Size = new System.Drawing.Size(18, 19);
-            this.lbl_1.TabIndex = 15;
-            this.lbl_1.Text = "st";
             // 
             // lnk_lgot
             // 
@@ -402,7 +391,7 @@
             this.metroLabel1.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.metroLabel1.Location = new System.Drawing.Point(40, 344);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(31, 19);
+            this.metroLabel1.Size = new System.Drawing.Size(33, 19);
             this.metroLabel1.TabIndex = 16;
             this.metroLabel1.Text = "City";
             this.metroLabel1.UseStyleColors = true;
@@ -490,7 +479,7 @@
             this.lbl_Sntnlty.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_Sntnlty.Location = new System.Drawing.Point(40, 440);
             this.lbl_Sntnlty.Name = "lbl_Sntnlty";
-            this.lbl_Sntnlty.Size = new System.Drawing.Size(71, 19);
+            this.lbl_Sntnlty.Size = new System.Drawing.Size(75, 19);
             this.lbl_Sntnlty.TabIndex = 8;
             this.lbl_Sntnlty.Text = "Nationality";
             this.lbl_Sntnlty.UseStyleColors = true;
@@ -501,7 +490,7 @@
             this.lbl_Sgndr.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_Sgndr.Location = new System.Drawing.Point(40, 407);
             this.lbl_Sgndr.Name = "lbl_Sgndr";
-            this.lbl_Sgndr.Size = new System.Drawing.Size(52, 19);
+            this.lbl_Sgndr.Size = new System.Drawing.Size(54, 19);
             this.lbl_Sgndr.TabIndex = 7;
             this.lbl_Sgndr.Text = "Gender";
             this.lbl_Sgndr.UseStyleColors = true;
@@ -512,7 +501,7 @@
             this.lbl_SBdy.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_SBdy.Location = new System.Drawing.Point(40, 374);
             this.lbl_SBdy.Name = "lbl_SBdy";
-            this.lbl_SBdy.Size = new System.Drawing.Size(59, 19);
+            this.lbl_SBdy.Size = new System.Drawing.Size(62, 19);
             this.lbl_SBdy.TabIndex = 6;
             this.lbl_SBdy.Text = "BirthDay";
             this.lbl_SBdy.UseStyleColors = true;
@@ -523,7 +512,7 @@
             this.lbl_SAddrss.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_SAddrss.Location = new System.Drawing.Point(40, 290);
             this.lbl_SAddrss.Name = "lbl_SAddrss";
-            this.lbl_SAddrss.Size = new System.Drawing.Size(56, 19);
+            this.lbl_SAddrss.Size = new System.Drawing.Size(58, 19);
             this.lbl_SAddrss.TabIndex = 5;
             this.lbl_SAddrss.Text = "Address";
             this.lbl_SAddrss.UseStyleColors = true;
@@ -534,7 +523,7 @@
             this.lbl_SUnm.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.lbl_SUnm.Location = new System.Drawing.Point(40, 258);
             this.lbl_SUnm.Name = "lbl_SUnm";
-            this.lbl_SUnm.Size = new System.Drawing.Size(76, 19);
+            this.lbl_SUnm.Size = new System.Drawing.Size(79, 19);
             this.lbl_SUnm.TabIndex = 4;
             this.lbl_SUnm.Text = "Member ID";
             this.lbl_SUnm.UseStyleColors = true;
@@ -633,6 +622,5 @@
         private MetroFramework.Controls.MetroLabel lbl_add2;
         private MetroFramework.Controls.MetroLabel lbl_ct;
         private MetroFramework.Controls.MetroLabel metroLabel1;
-        private MetroFramework.Controls.MetroLabel lbl_1;
     }
 }

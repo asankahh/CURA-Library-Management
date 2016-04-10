@@ -85,5 +85,10 @@ namespace AdminMain_ModernUi_
         {
             ErrRMSG.Clear();
         }
+
+        private void lnkRqsts_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
