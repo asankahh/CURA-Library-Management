@@ -115,6 +115,7 @@
             this.btn_ret.Text = "Set as Returnd";
             this.btn_ret.UseSelectable = true;
             this.btn_ret.UseVisualStyleBackColor = true;
+            this.btn_ret.Click += new System.EventHandler(this.btn_ret_Click);
             // 
             // dt_pck
             // 

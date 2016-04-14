@@ -54,7 +54,6 @@ namespace AdminMain_ModernUi_
             DataTable dt = new DataTable();
             sda.Fill(dt);
             conn.Close();
-
             grd_late.DataSource = dt;
             grd_late.Refresh();
             grd_late.Update();
@@ -65,18 +64,21 @@ namespace AdminMain_ModernUi_
             DataGridViewRow r = grd_late.Rows[e.RowIndex];
             string mid = grd_late.Rows[e.RowIndex].Cells[0].Value.ToString();
             string qry = "SELECT M_FirstName, Pe_Email FROM Member WHERE Member_Id = '"+mid+"'";
-           // conn.Open();
+            conn.Open();
             SqlCommand cmd = new SqlCommand(qry, conn);
             SqlDataAdapter sda = new SqlDataAdapter(cmd);
             DataTable dt1 = new DataTable();
-            sda.Fill(dt1);
-            
+            sda.Fill(dt1);            
             name = dt1.Rows[0][0].ToString();
             email = dt1.Rows[0][1].ToString();
-
             Notifier mlsndr = new Notifier();
             mlsndr.ShowDialog();
-            //conn.Close();
+            conn.Close();
+        }
+
+        private void btn_ret_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

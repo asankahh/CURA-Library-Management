@@ -85,7 +85,6 @@
             this.lbl_bknm.TabIndex = 8;
             this.lbl_bknm.Text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
             this.lbl_bknm.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl_bknm.Click += new System.EventHandler(this.lbl_bknm_Click);
             // 
             // lbl_athr
             // 
@@ -98,7 +97,6 @@
             this.lbl_athr.TabIndex = 9;
             this.lbl_athr.Text = "Lorem ipsum sfafaNSKJFBKQ";
             this.lbl_athr.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl_athr.Click += new System.EventHandler(this.lbl_athr_Click);
             // 
             // Date
             // 

@@ -26,16 +26,6 @@ namespace AdminMain_ModernUi_.MemberStuff
         private void btn_dn_Click(object sender, EventArgs e)
         {
             Close();
-        }
-
-        private void lbl_bknm_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void lbl_athr_Click(object sender, EventArgs e)
-        {
-
-        }
+        }        
     }
 }
