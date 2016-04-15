@@ -277,4 +277,10 @@
   <data name="ncvr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ncvr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="usrnm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noun_215433_cc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="psswrd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noun_27264_cc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

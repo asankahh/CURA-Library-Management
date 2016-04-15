@@ -373,6 +373,16 @@ namespace AdminMain_ModernUi_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap psswrd {
+            get {
+                object obj = ResourceManager.GetObject("psswrd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap rqsts {
             get {
                 object obj = ResourceManager.GetObject("rqsts", resourceCulture);
@@ -566,6 +576,16 @@ namespace AdminMain_ModernUi_.Properties {
         internal static System.Drawing.Bitmap Thss_h {
             get {
                 object obj = ResourceManager.GetObject("Thss_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap usrnm {
+            get {
+                object obj = ResourceManager.GetObject("usrnm", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

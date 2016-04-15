@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuraService", "CuraService\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuraServer", "CuraServer\CuraServer.csproj", "{40EDFCF5-BE45-4DC2-A501-F96EB6F7A08F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuraGui", "CuraGui\CuraGui.csproj", "{9561C812-A002-44A1-B907-B97AEC96255F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{40EDFCF5-BE45-4DC2-A501-F96EB6F7A08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40EDFCF5-BE45-4DC2-A501-F96EB6F7A08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40EDFCF5-BE45-4DC2-A501-F96EB6F7A08F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9561C812-A002-44A1-B907-B97AEC96255F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9561C812-A002-44A1-B907-B97AEC96255F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9561C812-A002-44A1-B907-B97AEC96255F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9561C812-A002-44A1-B907-B97AEC96255F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

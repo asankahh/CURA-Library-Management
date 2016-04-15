@@ -32,7 +32,6 @@
             this.btn_Save = new MetroFramework.Controls.MetroTextBox.MetroTextButton();
             this.btn_Close = new MetroFramework.Controls.MetroTextBox.MetroTextButton();
             this.btn_Clear = new MetroFramework.Controls.MetroTextBox.MetroTextButton();
-            this.pb_insertStaff = new System.Windows.Forms.PictureBox();
             this.cb_Gender = new MetroFramework.Controls.MetroComboBox();
             this.lbl_14 = new MetroFramework.Controls.MetroLabel();
             this.lbl_10 = new MetroFramework.Controls.MetroLabel();
@@ -48,7 +47,6 @@
             this.lbl_5 = new MetroFramework.Controls.MetroLabel();
             this.lbl_1 = new MetroFramework.Controls.MetroLabel();
             this.txt_Nationality = new MetroFramework.Controls.MetroTextBox();
-            this.dt_Birthday = new MetroFramework.Controls.MetroDateTime();
             this.txt_PhoNumber = new MetroFramework.Controls.MetroTextBox();
             this.txt_MobNumber = new MetroFramework.Controls.MetroTextBox();
             this.txt_Pemail = new MetroFramework.Controls.MetroTextBox();
@@ -67,7 +65,10 @@
             this.cb_cat = new MetroFramework.Controls.MetroComboBox();
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.btn_ungen = new MetroFramework.Controls.MetroTextBox.MetroTextButton();
-            this.print = new MetroFramework.Controls.MetroTextBox.MetroTextButton();
+            this.pb_insertStaff = new System.Windows.Forms.PictureBox();
+            this.cb_yr = new MetroFramework.Controls.MetroComboBox();
+            this.cb_mnth = new MetroFramework.Controls.MetroComboBox();
+            this.cb_dt = new MetroFramework.Controls.MetroComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pb_insertStaff)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,7 +79,7 @@
             this.btn_Save.Name = "btn_Save";
             this.btn_Save.Size = new System.Drawing.Size(110, 29);
             this.btn_Save.TabIndex = 1;
-            this.btn_Save.Text = "Save";
+            this.btn_Save.Text = "Save n Print";
             this.btn_Save.UseSelectable = true;
             this.btn_Save.UseStyleColors = true;
             this.btn_Save.UseVisualStyleBackColor = true;
@@ -109,19 +110,6 @@
             this.btn_Clear.UseStyleColors = true;
             this.btn_Clear.UseVisualStyleBackColor = true;
             this.btn_Clear.Click += new System.EventHandler(this.btn_Clear_Click);
-            // 
-            // pb_insertStaff
-            // 
-            this.pb_insertStaff.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb_insertStaff.Image = global::AdminMain_ModernUi_.Properties.Resources.picssss;
-            this.pb_insertStaff.Location = new System.Drawing.Point(449, 34);
-            this.pb_insertStaff.Name = "pb_insertStaff";
-            this.pb_insertStaff.Size = new System.Drawing.Size(210, 280);
-            this.pb_insertStaff.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pb_insertStaff.TabIndex = 0;
-            this.pb_insertStaff.TabStop = false;
-            this.pb_insertStaff.Tag = "";
-            this.pb_insertStaff.Click += new System.EventHandler(this.pb_stfusrimg_Click);
             // 
             // cb_Gender
             // 
@@ -313,15 +301,6 @@
             this.txt_Nationality.WaterMark = "Nationality";
             this.txt_Nationality.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txt_Nationality.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
-            // 
-            // dt_Birthday
-            // 
-            this.dt_Birthday.Location = new System.Drawing.Point(183, 540);
-            this.dt_Birthday.MinimumSize = new System.Drawing.Size(0, 29);
-            this.dt_Birthday.Name = "dt_Birthday";
-            this.dt_Birthday.Size = new System.Drawing.Size(240, 29);
-            this.dt_Birthday.TabIndex = 166;
-            this.dt_Birthday.UseStyleColors = true;
             // 
             // txt_PhoNumber
             // 
@@ -651,7 +630,7 @@
             this.txt_ID.MaxLength = 32767;
             this.txt_ID.Name = "txt_ID";
             this.txt_ID.PasswordChar = '\0';
-            this.txt_ID.PromptText = "Staff Name";
+            this.txt_ID.PromptText = "Staff ID";
             this.txt_ID.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txt_ID.SelectedText = "";
             this.txt_ID.SelectionLength = 0;
@@ -661,7 +640,7 @@
             this.txt_ID.TabIndex = 183;
             this.txt_ID.UseSelectable = true;
             this.txt_ID.UseStyleColors = true;
-            this.txt_ID.WaterMark = "Staff Name";
+            this.txt_ID.WaterMark = "Staff ID";
             this.txt_ID.WaterMarkColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
             this.txt_ID.WaterMarkFont = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel);
             // 
@@ -682,7 +661,7 @@
             // 
             // 
             this.txt_Uname.CustomButton.Image = null;
-            this.txt_Uname.CustomButton.Location = new System.Drawing.Point(129, 1);
+            this.txt_Uname.CustomButton.Location = new System.Drawing.Point(178, 1);
             this.txt_Uname.CustomButton.Name = "";
             this.txt_Uname.CustomButton.Size = new System.Drawing.Size(27, 27);
             this.txt_Uname.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -703,7 +682,7 @@
             this.txt_Uname.SelectionLength = 0;
             this.txt_Uname.SelectionStart = 0;
             this.txt_Uname.ShortcutsEnabled = true;
-            this.txt_Uname.Size = new System.Drawing.Size(157, 29);
+            this.txt_Uname.Size = new System.Drawing.Size(206, 29);
             this.txt_Uname.TabIndex = 184;
             this.txt_Uname.UseSelectable = true;
             this.txt_Uname.UseStyleColors = true;
@@ -728,7 +707,7 @@
             // 
             // 
             this.txt_Pwrd.CustomButton.Image = null;
-            this.txt_Pwrd.CustomButton.Location = new System.Drawing.Point(129, 1);
+            this.txt_Pwrd.CustomButton.Location = new System.Drawing.Point(178, 1);
             this.txt_Pwrd.CustomButton.Name = "";
             this.txt_Pwrd.CustomButton.Size = new System.Drawing.Size(27, 27);
             this.txt_Pwrd.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -749,7 +728,7 @@
             this.txt_Pwrd.SelectionLength = 0;
             this.txt_Pwrd.SelectionStart = 0;
             this.txt_Pwrd.ShortcutsEnabled = true;
-            this.txt_Pwrd.Size = new System.Drawing.Size(157, 29);
+            this.txt_Pwrd.Size = new System.Drawing.Size(206, 29);
             this.txt_Pwrd.TabIndex = 186;
             this.txt_Pwrd.UseSelectable = true;
             this.txt_Pwrd.UseStyleColors = true;
@@ -759,12 +738,11 @@
             // 
             // btn_pwgen
             // 
-            this.btn_pwgen.Image = null;
-            this.btn_pwgen.Location = new System.Drawing.Point(346, 176);
+            this.btn_pwgen.Image = global::AdminMain_ModernUi_.Properties.Resources.psswrd;
+            this.btn_pwgen.Location = new System.Drawing.Point(395, 176);
             this.btn_pwgen.Name = "btn_pwgen";
-            this.btn_pwgen.Size = new System.Drawing.Size(77, 29);
+            this.btn_pwgen.Size = new System.Drawing.Size(28, 29);
             this.btn_pwgen.TabIndex = 188;
-            this.btn_pwgen.Text = "Generate";
             this.btn_pwgen.UseSelectable = true;
             this.btn_pwgen.UseStyleColors = true;
             this.btn_pwgen.UseVisualStyleBackColor = true;
@@ -790,36 +768,72 @@
             this.metroLabel3.FontWeight = MetroFramework.MetroLabelWeight.Regular;
             this.metroLabel3.Location = new System.Drawing.Point(18, 217);
             this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(65, 19);
+            this.metroLabel3.Size = new System.Drawing.Size(92, 19);
             this.metroLabel3.TabIndex = 189;
-            this.metroLabel3.Text = "Category";
+            this.metroLabel3.Text = "Authorization";
             this.metroLabel3.UseStyleColors = true;
             // 
             // btn_ungen
             // 
-            this.btn_ungen.Image = null;
-            this.btn_ungen.Location = new System.Drawing.Point(346, 140);
+            this.btn_ungen.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_ungen.Image = global::AdminMain_ModernUi_.Properties.Resources.usrnm;
+            this.btn_ungen.Location = new System.Drawing.Point(395, 140);
             this.btn_ungen.Name = "btn_ungen";
-            this.btn_ungen.Size = new System.Drawing.Size(77, 29);
+            this.btn_ungen.Size = new System.Drawing.Size(28, 29);
             this.btn_ungen.TabIndex = 191;
-            this.btn_ungen.Text = "Generate";
             this.btn_ungen.UseSelectable = true;
             this.btn_ungen.UseStyleColors = true;
             this.btn_ungen.UseVisualStyleBackColor = true;
             this.btn_ungen.Click += new System.EventHandler(this.btn_ungen_Click);
             // 
-            // print
+            // pb_insertStaff
             // 
-            this.print.Image = null;
-            this.print.Location = new System.Drawing.Point(523, 571);
-            this.print.Name = "print";
-            this.print.Size = new System.Drawing.Size(110, 29);
-            this.print.TabIndex = 192;
-            this.print.Text = "print";
-            this.print.UseSelectable = true;
-            this.print.UseStyleColors = true;
-            this.print.UseVisualStyleBackColor = true;
-            this.print.Click += new System.EventHandler(this.print_Click);
+            this.pb_insertStaff.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pb_insertStaff.Image = global::AdminMain_ModernUi_.Properties.Resources.picssss;
+            this.pb_insertStaff.Location = new System.Drawing.Point(449, 34);
+            this.pb_insertStaff.Name = "pb_insertStaff";
+            this.pb_insertStaff.Size = new System.Drawing.Size(210, 280);
+            this.pb_insertStaff.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_insertStaff.TabIndex = 0;
+            this.pb_insertStaff.TabStop = false;
+            this.pb_insertStaff.Tag = "";
+            this.pb_insertStaff.Click += new System.EventHandler(this.pb_stfusrimg_Click);
+            // 
+            // cb_yr
+            // 
+            this.cb_yr.FormattingEnabled = true;
+            this.cb_yr.ItemHeight = 23;
+            this.cb_yr.Location = new System.Drawing.Point(183, 541);
+            this.cb_yr.Name = "cb_yr";
+            this.cb_yr.PromptText = "Year";
+            this.cb_yr.Size = new System.Drawing.Size(86, 29);
+            this.cb_yr.TabIndex = 192;
+            this.cb_yr.UseSelectable = true;
+            this.cb_yr.UseStyleColors = true;
+            // 
+            // cb_mnth
+            // 
+            this.cb_mnth.FormattingEnabled = true;
+            this.cb_mnth.ItemHeight = 23;
+            this.cb_mnth.Location = new System.Drawing.Point(275, 541);
+            this.cb_mnth.Name = "cb_mnth";
+            this.cb_mnth.PromptText = "Month";
+            this.cb_mnth.Size = new System.Drawing.Size(77, 29);
+            this.cb_mnth.TabIndex = 193;
+            this.cb_mnth.UseSelectable = true;
+            this.cb_mnth.UseStyleColors = true;
+            // 
+            // cb_dt
+            // 
+            this.cb_dt.FormattingEnabled = true;
+            this.cb_dt.ItemHeight = 23;
+            this.cb_dt.Location = new System.Drawing.Point(358, 541);
+            this.cb_dt.Name = "cb_dt";
+            this.cb_dt.PromptText = "Date";
+            this.cb_dt.Size = new System.Drawing.Size(65, 29);
+            this.cb_dt.TabIndex = 195;
+            this.cb_dt.UseSelectable = true;
+            this.cb_dt.UseStyleColors = true;
             // 
             // StaffUi_New
             // 
@@ -827,7 +841,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(675, 636);
             this.ControlBox = false;
-            this.Controls.Add(this.print);
+            this.Controls.Add(this.cb_dt);
+            this.Controls.Add(this.cb_mnth);
+            this.Controls.Add(this.cb_yr);
             this.Controls.Add(this.btn_ungen);
             this.Controls.Add(this.cb_cat);
             this.Controls.Add(this.metroLabel3);
@@ -852,7 +868,6 @@
             this.Controls.Add(this.lbl_5);
             this.Controls.Add(this.lbl_1);
             this.Controls.Add(this.txt_Nationality);
-            this.Controls.Add(this.dt_Birthday);
             this.Controls.Add(this.txt_PhoNumber);
             this.Controls.Add(this.txt_MobNumber);
             this.Controls.Add(this.txt_Pemail);
@@ -873,6 +888,7 @@
             this.Resizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "StaffUi_New";
+            this.Load += new System.EventHandler(this.StaffUi_New_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pb_insertStaff)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -900,7 +916,6 @@
         private MetroFramework.Controls.MetroLabel lbl_5;
         private MetroFramework.Controls.MetroLabel lbl_1;
         private MetroFramework.Controls.MetroTextBox txt_Nationality;
-        private MetroFramework.Controls.MetroDateTime dt_Birthday;
         private MetroFramework.Controls.MetroTextBox txt_PhoNumber;
         private MetroFramework.Controls.MetroTextBox txt_MobNumber;
         private MetroFramework.Controls.MetroTextBox txt_Pemail;
@@ -919,6 +934,8 @@
         private MetroFramework.Controls.MetroComboBox cb_cat;
         private MetroFramework.Controls.MetroLabel metroLabel3;
         private MetroFramework.Controls.MetroTextBox.MetroTextButton btn_ungen;
-        private MetroFramework.Controls.MetroTextBox.MetroTextButton print;
+        private MetroFramework.Controls.MetroComboBox cb_yr;
+        private MetroFramework.Controls.MetroComboBox cb_mnth;
+        private MetroFramework.Controls.MetroComboBox cb_dt;
     }
 }
