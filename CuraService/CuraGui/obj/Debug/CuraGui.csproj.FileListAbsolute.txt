@@ -1,0 +1,15 @@
+F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\bin\Debug\CuraGui.exe.config
+F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\bin\Debug\CuraGui.exe
+F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\bin\Debug\CuraGui.pdb
+F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\bin\Debug\CuraService.dll
+F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\bin\Debug\MetroFramework.Design.dll
+F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\bin\Debug\MetroFramework.dll
+F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\bin\Debug\MetroFramework.Fonts.dll
+F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\bin\Debug\Base32Encoder.dll
+F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\bin\Debug\CuraService.pdb
+F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\obj\Debug\CuraGui.csprojResolveAssemblyReference.cache
+F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\obj\Debug\CuraGui.GUI.resources
+F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\obj\Debug\CuraGui.Properties.Resources.resources
+F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\obj\Debug\CuraGui.csproj.GenerateResource.Cache
+F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\obj\Debug\CuraGui.exe
+F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\obj\Debug\CuraGui.pdb

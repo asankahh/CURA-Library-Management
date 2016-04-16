@@ -44,7 +44,7 @@ namespace AdminMain_ModernUi_
             int startX = 70;
             int startY = 50;
             int offset = 40;
-            string hdr = "Library Regestration Form";/* For Print */
+            string hdr = "Library Staff Card";/* For Print */
             string sprtr = "________________________________________________";/* For Print */
             string nme = "Name".PadRight(15) + ":".PadRight(5) + fn + "".PadRight(1) + ln; /* For Print */
             string unme = "User Name".PadRight(15) + ":".PadRight(5) + un; /* For Print */

@@ -349,6 +349,7 @@
     <Compile Include="ReviewsUi.Designer.cs">
       <DependentUpon>ReviewsUi.cs</DependentUpon>
     </Compile>
+    <Compile Include="RPG.cs" />
     <Compile Include="Service References\LibraryService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -882,6 +883,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ncvr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noun_27264_cc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noun_215433_cc.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
