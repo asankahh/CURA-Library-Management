@@ -21,7 +21,9 @@ namespace AdminMain_ModernUi_.MemberStuff
 
         private void MemberLibrary_Load(object sender, EventArgs e)
         {
-
+            pb_sgtn0.Image = Resources.ncvr;
+            lbl_sgtn_bknm0.Text = "Test 0";
+            lbl_sgstn_athr0.Text = "Test0";
         }
 
         private void lnkLbrry_Click(object sender, EventArgs e)

@@ -25,13 +25,6 @@ namespace CuraGui
             lbl_stts.Text = "Service Started";
         }
 
-        //private void GUI_Load(object sender, EventArgs e)
-        //{
-        //    host.Close();
-        //    btn_strt.Enabled = true;
-        //    btn_stp.Enabled = false;
-        //}
-
         private void btn_strt_Click(object sender, EventArgs e)
         {
             host = new ServiceHost(typeof(CuraService.CuraService));
