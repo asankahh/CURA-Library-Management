@@ -156,6 +156,12 @@
   <wsdl:message name="ICuraService_SearchLibrary_OutputMessage">
     <wsdl:part name="parameters" element="tns:SearchLibraryResponse" />
   </wsdl:message>
+  <wsdl:message name="ICuraService_HitBooks_InputMessage">
+    <wsdl:part name="parameters" element="tns:HitBooks" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_HitBooks_OutputMessage">
+    <wsdl:part name="parameters" element="tns:HitBooksResponse" />
+  </wsdl:message>
   <wsdl:message name="ICuraService_SelectMember_InputMessage">
     <wsdl:part name="parameters" element="tns:SelectMember" />
   </wsdl:message>
@@ -416,6 +422,10 @@
     <wsdl:operation name="SearchLibrary">
       <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/SearchLibrary" message="tns:ICuraService_SearchLibrary_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/SearchLibraryResponse" message="tns:ICuraService_SearchLibrary_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="HitBooks">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/HitBooks" message="tns:ICuraService_HitBooks_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/HitBooksResponse" message="tns:ICuraService_HitBooks_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="SelectMember">
       <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/SelectMember" message="tns:ICuraService_SelectMember_InputMessage" />
@@ -713,6 +723,15 @@
     </wsdl:operation>
     <wsdl:operation name="SearchLibrary">
       <soap:operation soapAction="http://tempuri.org/ICuraService/SearchLibrary" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HitBooks">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/HitBooks" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -1167,6 +1186,15 @@
     </wsdl:operation>
     <wsdl:operation name="SearchLibrary">
       <soap12:operation soapAction="http://tempuri.org/ICuraService/SearchLibrary" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="HitBooks">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/HitBooks" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>

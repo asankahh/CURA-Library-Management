@@ -51,6 +51,7 @@
     <Compile Include="methods\CONN.cs" />
     <Compile Include="methods\CRYPTO.cs" />
     <Compile Include="methods\DELETE.cs" />
+    <Compile Include="methods\HTBKS.cs" />
     <Compile Include="methods\INSERT.cs" />
     <Compile Include="methods\LOGIN.cs" />
     <Compile Include="methods\rndmbks.cs" />

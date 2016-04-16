@@ -135,6 +135,12 @@ namespace AdminMain_ModernUi_.LibraryService {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/SearchLibrary", ReplyAction="http://tempuri.org/ICuraService/SearchLibraryResponse")]
         System.Threading.Tasks.Task<System.Data.DataTable> SearchLibraryAsync(string sql);
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/HitBooks", ReplyAction="http://tempuri.org/ICuraService/HitBooksResponse")]
+        System.Data.DataTable HitBooks();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/HitBooks", ReplyAction="http://tempuri.org/ICuraService/HitBooksResponse")]
+        System.Threading.Tasks.Task<System.Data.DataTable> HitBooksAsync();
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/SelectMember", ReplyAction="http://tempuri.org/ICuraService/SelectMemberResponse")]
         System.Data.DataTable SelectMember();
         
@@ -501,6 +507,14 @@ namespace AdminMain_ModernUi_.LibraryService {
         
         public System.Threading.Tasks.Task<System.Data.DataTable> SearchLibraryAsync(string sql) {
             return base.Channel.SearchLibraryAsync(sql);
+        }
+        
+        public System.Data.DataTable HitBooks() {
+            return base.Channel.HitBooks();
+        }
+        
+        public System.Threading.Tasks.Task<System.Data.DataTable> HitBooksAsync() {
+            return base.Channel.HitBooksAsync();
         }
         
         public System.Data.DataTable SelectMember() {

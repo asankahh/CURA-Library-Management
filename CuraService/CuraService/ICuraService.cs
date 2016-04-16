@@ -87,6 +87,9 @@ namespace CuraService
         [OperationContract]//20
         DataTable SearchLibrary(string sql);
 
+        [OperationContract]//21
+        DataTable HitBooks();
+
         //[OperationContract]//21
         //int InsertDigital(string CuraID, string Name, string Author, string ISBN, string Edition, string Publisher, string Category, string Year, string NoOfPages, string Quantity, string Gener, string Description, byte[] img);
 

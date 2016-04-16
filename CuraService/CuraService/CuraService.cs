@@ -24,6 +24,7 @@ namespace CuraService
         LOGIN lgn = new LOGIN();
         rndmbks rnd = new rndmbks();
         CRYPTO crpt = new CRYPTO();
+        HTBKS htbks = new HTBKS();
 
         public bool wcf()
         {
@@ -432,6 +433,15 @@ namespace CuraService
             return randombooks;
         }
 
+        public DataTable HitBooks()
+        {
+            DataTable Hitbooks = new DataTable("Hit Books");
+            Hitbooks = htbks.htbks();
+            return Hitbooks;
+        }
+
+
+
         string ICuraService.GetCategoryName(string categoryId)
         {
             try
@@ -455,5 +465,7 @@ namespace CuraService
                 conn.Close();
             }
         }
+
+        
     }
 }

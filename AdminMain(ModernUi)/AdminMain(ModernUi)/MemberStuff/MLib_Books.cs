@@ -42,6 +42,7 @@ namespace AdminMain_ModernUi_.MemberStuff
 
         private void lnkbks_Click(object sender, EventArgs e)
         {
+            Hide();
             Close();
         }
 

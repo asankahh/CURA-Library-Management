@@ -28,4 +28,3 @@ F:\CLZ ROOM\Git\CURA\CuraService\CuraService\bin\Debug\CuraService.pdb
 F:\CLZ ROOM\Git\CURA\CuraService\CuraService\obj\Debug\CuraService.csprojResolveAssemblyReference.cache
 F:\CLZ ROOM\Git\CURA\CuraService\CuraService\obj\Debug\CuraService.dll
 F:\CLZ ROOM\Git\CURA\CuraService\CuraService\obj\Debug\CuraService.pdb
-F:\CLZ ROOM\Git\CURA\CuraService\CuraService\bin\Debug\Base32Encoder.dll

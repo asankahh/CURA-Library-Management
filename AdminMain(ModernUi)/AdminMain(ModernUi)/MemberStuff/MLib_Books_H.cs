@@ -18,10 +18,7 @@ namespace AdminMain_ModernUi_.MemberStuff
     {
         /* Create a object of Service */
         LibraryService.CuraServiceClient client = new LibraryService.CuraServiceClient("NetTcpBinding_ICuraService");
-        /* Database String */
-        public static string dbstrng = "Data Source=ASA-LAPTOP-MSI;Initial Catalog=Cura_V3.5;Integrated Security=True";
-        ///* create secondary database object */
-        //SqlConnection conn = new SqlConnection(dbstrng);
+       
         public MLib_Books_H()
         {
             InitializeComponent();
@@ -34,9 +31,11 @@ namespace AdminMain_ModernUi_.MemberStuff
 
         private void lnk_all_Click(object sender, EventArgs e)
         {
+            Hide();
             MLib_Books MLB = new MLib_Books();
             StyleManager.Clone(MLB);
             MLB.ShowDialog();
+            this.Dispose();
         }
 
         private void MLib_Books_H_Load(object sender, EventArgs e)
