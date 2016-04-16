@@ -82,9 +82,9 @@
             // btn_mDelete
             // 
             this.btn_mDelete.Image = null;
-            this.btn_mDelete.Location = new System.Drawing.Point(38, 611);
+            this.btn_mDelete.Location = new System.Drawing.Point(70, 600);
             this.btn_mDelete.Name = "btn_mDelete";
-            this.btn_mDelete.Size = new System.Drawing.Size(110, 29);
+            this.btn_mDelete.Size = new System.Drawing.Size(86, 29);
             this.btn_mDelete.TabIndex = 22;
             this.btn_mDelete.Text = "Remove";
             this.btn_mDelete.UseSelectable = true;
@@ -174,7 +174,7 @@
             this.gridview.EnableHeadersVisualStyles = false;
             this.gridview.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.gridview.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.gridview.Location = new System.Drawing.Point(321, 178);
+            this.gridview.Location = new System.Drawing.Point(337, 178);
             this.gridview.Name = "gridview";
             this.gridview.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -187,7 +187,7 @@
             this.gridview.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.gridview.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.gridview.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.gridview.Size = new System.Drawing.Size(861, 439);
+            this.gridview.Size = new System.Drawing.Size(845, 439);
             this.gridview.TabIndex = 15;
             this.gridview.UseStyleColors = true;
             this.gridview.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridviewBooks_CellContentClick);
@@ -196,9 +196,9 @@
             // btn_updateForm
             // 
             this.btn_updateForm.Image = null;
-            this.btn_updateForm.Location = new System.Drawing.Point(221, 611);
+            this.btn_updateForm.Location = new System.Drawing.Point(224, 600);
             this.btn_updateForm.Name = "btn_updateForm";
-            this.btn_updateForm.Size = new System.Drawing.Size(110, 29);
+            this.btn_updateForm.Size = new System.Drawing.Size(86, 29);
             this.btn_updateForm.TabIndex = 23;
             this.btn_updateForm.Text = "Update";
             this.btn_updateForm.UseSelectable = true;

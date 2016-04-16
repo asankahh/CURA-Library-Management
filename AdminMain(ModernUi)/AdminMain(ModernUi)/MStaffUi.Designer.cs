@@ -297,7 +297,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pb_hlp.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pb_hlp.Image = global::AdminMain_ModernUi_.Properties.Resources.hlp;
+            this.pb_hlp.Image = global::AdminMain_ModernUi_.Properties.Resources.gglbks_h;
             this.pb_hlp.Location = new System.Drawing.Point(762, 275);
             this.pb_hlp.Name = "pb_hlp";
             this.pb_hlp.Size = new System.Drawing.Size(250, 125);

@@ -771,9 +771,6 @@ C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\A
 C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Notifier.resources
 C:\Users\asank\Desktop\Misc\ip\Asanka\Working current\Cura Library Application\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.MemberStuff.MLib_Books_H.resources
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).exe.config
-F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Interop.AcroPDFLib.dll
-F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AxInterop.AcroPDFLib.dll
-F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csproj.ResolveComReference.cache
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain(ModernUi).exe
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain(ModernUi).pdb
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csprojResolveAssemblyReference.cache
@@ -881,5 +878,4 @@ F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Thss_h.png
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).exe
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).pdb
-F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Interop.AcroPDFLib.dll
-F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AxInterop.AcroPDFLib.dll
+F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.GoogleBooks.resources

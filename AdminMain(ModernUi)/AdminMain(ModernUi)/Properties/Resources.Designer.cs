@@ -193,9 +193,9 @@ namespace AdminMain_ModernUi_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap hlp {
+        internal static System.Drawing.Bitmap gglbks {
             get {
-                object obj = ResourceManager.GetObject("hlp", resourceCulture);
+                object obj = ResourceManager.GetObject("gglbks", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +203,9 @@ namespace AdminMain_ModernUi_.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap hlp_h {
+        internal static System.Drawing.Bitmap gglbks_h {
             get {
-                object obj = ResourceManager.GetObject("hlp_h", resourceCulture);
+                object obj = ResourceManager.GetObject("gglbks_h", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

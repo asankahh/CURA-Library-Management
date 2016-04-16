@@ -81,11 +81,13 @@
             this.btn_Close = new MetroFramework.Controls.MetroTextBox.MetroTextButton();
             this.btn_Update = new MetroFramework.Controls.MetroTextBox.MetroTextButton();
             this.pb_editStaff = new System.Windows.Forms.PictureBox();
+            this.metroPanel2 = new MetroFramework.Controls.MetroPanel();
             ((System.ComponentModel.ISupportInitialize)(this.gridview_Staff)).BeginInit();
             this.metroPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_viewStaff)).BeginInit();
             this.pnl_updt.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_editStaff)).BeginInit();
+            this.metroPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // lnkStff
@@ -165,7 +167,7 @@
             this.metroPanel1.Controls.Add(this.lbl_staffID);
             this.metroPanel1.Controls.Add(this.lbl_staffCity);
             this.metroPanel1.Controls.Add(this.lbl_staffName);
-            this.metroPanel1.Controls.Add(this.pb_viewStaff);
+            this.metroPanel1.Controls.Add(this.metroPanel2);
             this.metroPanel1.HorizontalScrollbarBarColor = true;
             this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
             this.metroPanel1.HorizontalScrollbarSize = 10;
@@ -330,10 +332,10 @@
             // 
             // pb_viewStaff
             // 
-            this.pb_viewStaff.Location = new System.Drawing.Point(3, 3);
+            this.pb_viewStaff.Location = new System.Drawing.Point(0, 3);
             this.pb_viewStaff.Name = "pb_viewStaff";
             this.pb_viewStaff.Size = new System.Drawing.Size(150, 200);
-            this.pb_viewStaff.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_viewStaff.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_viewStaff.TabIndex = 5;
             this.pb_viewStaff.TabStop = false;
             this.pb_viewStaff.Tag = "";
@@ -373,7 +375,7 @@
             this.pnl_updt.HorizontalScrollbarBarColor = true;
             this.pnl_updt.HorizontalScrollbarHighlightOnWheel = false;
             this.pnl_updt.HorizontalScrollbarSize = 10;
-            this.pnl_updt.Location = new System.Drawing.Point(249, 34);
+            this.pnl_updt.Location = new System.Drawing.Point(255, 34);
             this.pnl_updt.Name = "pnl_updt";
             this.pnl_updt.Size = new System.Drawing.Size(656, 619);
             this.pnl_updt.TabIndex = 7;
@@ -974,6 +976,21 @@
             this.pb_editStaff.Tag = "";
             this.pb_editStaff.Click += new System.EventHandler(this.pb_editStaff_Click);
             // 
+            // metroPanel2
+            // 
+            this.metroPanel2.Controls.Add(this.pb_viewStaff);
+            this.metroPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.metroPanel2.HorizontalScrollbarBarColor = true;
+            this.metroPanel2.HorizontalScrollbarHighlightOnWheel = false;
+            this.metroPanel2.HorizontalScrollbarSize = 10;
+            this.metroPanel2.Location = new System.Drawing.Point(0, 0);
+            this.metroPanel2.Name = "metroPanel2";
+            this.metroPanel2.Size = new System.Drawing.Size(413, 554);
+            this.metroPanel2.TabIndex = 21;
+            this.metroPanel2.VerticalScrollbarBarColor = true;
+            this.metroPanel2.VerticalScrollbarHighlightOnWheel = false;
+            this.metroPanel2.VerticalScrollbarSize = 10;
+            // 
             // StaffUi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1001,6 +1018,7 @@
             this.pnl_updt.ResumeLayout(false);
             this.pnl_updt.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_editStaff)).EndInit();
+            this.metroPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1056,5 +1074,6 @@
         private MetroFramework.Controls.MetroTextBox.MetroTextButton btn_updateForm;
         private MetroFramework.Controls.MetroTextBox.MetroTextButton btn_mDelete;
         private MetroFramework.Controls.MetroTextBox.MetroTextButton btn_newStaff;
+        private MetroFramework.Controls.MetroPanel metroPanel2;
     }
 }

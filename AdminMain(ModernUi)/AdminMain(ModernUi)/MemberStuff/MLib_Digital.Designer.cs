@@ -36,16 +36,19 @@
             this.pb_msc = new System.Windows.Forms.PictureBox();
             this.pb_ebks = new System.Windows.Forms.PictureBox();
             this.pb_sftwr = new System.Windows.Forms.PictureBox();
+            this.pb_gb = new System.Windows.Forms.PictureBox();
             this.pnl_1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_vlc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_alc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_msc)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ebks)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_sftwr)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_gb)).BeginInit();
             this.SuspendLayout();
             // 
             // pnl_1
             // 
+            this.pnl_1.Controls.Add(this.pb_gb);
             this.pnl_1.Controls.Add(this.lnkLbrry);
             this.pnl_1.Controls.Add(this.pb_vlc);
             this.pnl_1.Controls.Add(this.pb_alc);
@@ -86,7 +89,7 @@
             this.pb_vlc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pb_vlc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_vlc.Image = global::AdminMain_ModernUi_.Properties.Resources.Vlecs;
-            this.pb_vlc.Location = new System.Drawing.Point(631, 383);
+            this.pb_vlc.Location = new System.Drawing.Point(455, 383);
             this.pb_vlc.Name = "pb_vlc";
             this.pb_vlc.Size = new System.Drawing.Size(250, 125);
             this.pb_vlc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -101,7 +104,7 @@
             this.pb_alc.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pb_alc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pb_alc.Image = global::AdminMain_ModernUi_.Properties.Resources.Alecs;
-            this.pb_alc.Location = new System.Drawing.Point(279, 383);
+            this.pb_alc.Location = new System.Drawing.Point(102, 383);
             this.pb_alc.Name = "pb_alc";
             this.pb_alc.Size = new System.Drawing.Size(250, 125);
             this.pb_alc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
@@ -156,6 +159,21 @@
             this.pb_sftwr.MouseLeave += new System.EventHandler(this.pb_sftwr_MouseLeave);
             this.pb_sftwr.MouseHover += new System.EventHandler(this.pb_sftwr_MouseHover);
             // 
+            // pb_gb
+            // 
+            this.pb_gb.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pb_gb.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb_gb.Image = global::AdminMain_ModernUi_.Properties.Resources.gglbks;
+            this.pb_gb.Location = new System.Drawing.Point(805, 383);
+            this.pb_gb.Name = "pb_gb";
+            this.pb_gb.Size = new System.Drawing.Size(250, 125);
+            this.pb_gb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pb_gb.TabIndex = 8;
+            this.pb_gb.TabStop = false;
+            this.pb_gb.Click += new System.EventHandler(this.pb_gb_Click);
+            this.pb_gb.MouseLeave += new System.EventHandler(this.pb_gb_MouseLeave);
+            this.pb_gb.MouseHover += new System.EventHandler(this.pb_gb_MouseHover);
+            // 
             // MLib_Digital
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -176,6 +194,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb_msc)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ebks)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_sftwr)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_gb)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -189,5 +208,6 @@
         private System.Windows.Forms.PictureBox pb_msc;
         private System.Windows.Forms.PictureBox pb_ebks;
         private System.Windows.Forms.PictureBox pb_sftwr;
+        private System.Windows.Forms.PictureBox pb_gb;
     }
 }

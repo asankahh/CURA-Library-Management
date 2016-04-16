@@ -108,5 +108,22 @@ namespace AdminMain_ModernUi_.MemberStuff
         {
             pb_vlc.Image = Resources.Vlecs;
         }
+
+        private void pb_gb_MouseHover(object sender, EventArgs e)
+        {
+            pb_gb.Image = Resources.gglbks_h;
+        }
+
+        private void pb_gb_MouseLeave(object sender, EventArgs e)
+        {
+            pb_gb.Image = Resources.gglbks;
+        }
+
+        private void pb_gb_Click(object sender, EventArgs e)
+        {
+            GoogleBooks GBUi = new GoogleBooks();
+            this.StyleManager.Clone(GBUi);
+            GBUi.ShowDialog();
+        }
     }
 }

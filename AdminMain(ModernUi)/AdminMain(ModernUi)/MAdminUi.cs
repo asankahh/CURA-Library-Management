@@ -125,11 +125,11 @@ namespace AdminMain_ModernUi_
             StUi.ShowDialog();
         }
 
-        private void pb_hlp_Click(object sender, EventArgs e)
+        private void pb_gb_Click(object sender, EventArgs e)
         {
-            HelpUi HpUi = new HelpUi();
-            this.StyleManager.Clone(HpUi);
-            HpUi.ShowDialog();
+            GoogleBooks GBUi = new GoogleBooks();
+            this.StyleManager.Clone(GBUi);
+            GBUi.ShowDialog();
         }
 
         private void btn_styleaplly_Click(object sender, EventArgs e)
@@ -279,12 +279,12 @@ namespace AdminMain_ModernUi_
 
         private void pb_hlp_MouseHover(object sender, EventArgs e)
         {
-            pb_hlp.Image = Resources.hlp_h;
+            pb_gb.Image = Resources.gglbks_h;
         }
 
         private void pb_hlp_MouseLeave(object sender, EventArgs e)
         {
-            pb_hlp.Image = Resources.hlp;
+            pb_gb.Image = Resources.gglbks;
         }
 
         private void pb_usr_Click(object sender, EventArgs e)
@@ -326,6 +326,7 @@ namespace AdminMain_ModernUi_
             this.StyleManager.Clone(MUi);
             MUi.ShowDialog();
         }
+        
 
         //Metro Tile Hover and Leave actions End
     }

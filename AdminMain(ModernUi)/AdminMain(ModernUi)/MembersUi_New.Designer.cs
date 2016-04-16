@@ -114,11 +114,11 @@
             // pb_insertMember
             // 
             this.pb_insertMember.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pb_insertMember.Image = global::AdminMain_ModernUi_.Properties.Resources.picssss;
+            this.pb_insertMember.Image = ((System.Drawing.Image)(resources.GetObject("pb_insertMember.Image")));
             this.pb_insertMember.Location = new System.Drawing.Point(445, 44);
             this.pb_insertMember.Name = "pb_insertMember";
             this.pb_insertMember.Size = new System.Drawing.Size(210, 280);
-            this.pb_insertMember.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_insertMember.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_insertMember.TabIndex = 31;
             this.pb_insertMember.TabStop = false;
             this.pb_insertMember.Tag = "";
@@ -726,12 +726,11 @@
             // 
             // btn_ungen
             // 
-            this.btn_ungen.Image = null;
-            this.btn_ungen.Location = new System.Drawing.Point(345, 143);
+            this.btn_ungen.Image = ((System.Drawing.Image)(resources.GetObject("btn_ungen.Image")));
+            this.btn_ungen.Location = new System.Drawing.Point(394, 143);
             this.btn_ungen.Name = "btn_ungen";
-            this.btn_ungen.Size = new System.Drawing.Size(77, 29);
+            this.btn_ungen.Size = new System.Drawing.Size(28, 29);
             this.btn_ungen.TabIndex = 199;
-            this.btn_ungen.Text = "Generate";
             this.btn_ungen.UseSelectable = true;
             this.btn_ungen.UseStyleColors = true;
             this.btn_ungen.UseVisualStyleBackColor = true;
@@ -764,12 +763,11 @@
             // 
             // btn_pwgen
             // 
-            this.btn_pwgen.Image = null;
-            this.btn_pwgen.Location = new System.Drawing.Point(345, 179);
+            this.btn_pwgen.Image = ((System.Drawing.Image)(resources.GetObject("btn_pwgen.Image")));
+            this.btn_pwgen.Location = new System.Drawing.Point(394, 179);
             this.btn_pwgen.Name = "btn_pwgen";
-            this.btn_pwgen.Size = new System.Drawing.Size(77, 29);
+            this.btn_pwgen.Size = new System.Drawing.Size(28, 29);
             this.btn_pwgen.TabIndex = 196;
-            this.btn_pwgen.Text = "Generate";
             this.btn_pwgen.UseSelectable = true;
             this.btn_pwgen.UseStyleColors = true;
             this.btn_pwgen.UseVisualStyleBackColor = true;
@@ -792,7 +790,7 @@
             // 
             // 
             this.txt_Pwrd.CustomButton.Image = null;
-            this.txt_Pwrd.CustomButton.Location = new System.Drawing.Point(129, 1);
+            this.txt_Pwrd.CustomButton.Location = new System.Drawing.Point(178, 1);
             this.txt_Pwrd.CustomButton.Name = "";
             this.txt_Pwrd.CustomButton.Size = new System.Drawing.Size(27, 27);
             this.txt_Pwrd.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -813,7 +811,7 @@
             this.txt_Pwrd.SelectionLength = 0;
             this.txt_Pwrd.SelectionStart = 0;
             this.txt_Pwrd.ShortcutsEnabled = true;
-            this.txt_Pwrd.Size = new System.Drawing.Size(157, 29);
+            this.txt_Pwrd.Size = new System.Drawing.Size(206, 29);
             this.txt_Pwrd.TabIndex = 194;
             this.txt_Pwrd.UseSelectable = true;
             this.txt_Pwrd.UseStyleColors = true;
@@ -838,7 +836,7 @@
             // 
             // 
             this.txt_Uname.CustomButton.Image = null;
-            this.txt_Uname.CustomButton.Location = new System.Drawing.Point(129, 1);
+            this.txt_Uname.CustomButton.Location = new System.Drawing.Point(178, 1);
             this.txt_Uname.CustomButton.Name = "";
             this.txt_Uname.CustomButton.Size = new System.Drawing.Size(27, 27);
             this.txt_Uname.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
@@ -859,7 +857,7 @@
             this.txt_Uname.SelectionLength = 0;
             this.txt_Uname.SelectionStart = 0;
             this.txt_Uname.ShortcutsEnabled = true;
-            this.txt_Uname.Size = new System.Drawing.Size(157, 29);
+            this.txt_Uname.Size = new System.Drawing.Size(206, 29);
             this.txt_Uname.TabIndex = 192;
             this.txt_Uname.UseSelectable = true;
             this.txt_Uname.UseStyleColors = true;

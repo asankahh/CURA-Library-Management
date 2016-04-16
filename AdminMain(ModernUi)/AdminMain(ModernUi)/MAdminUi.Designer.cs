@@ -35,7 +35,7 @@
             this.lbl_UN = new MetroFramework.Controls.MetroLabel();
             this.lbl_wlcm = new MetroFramework.Controls.MetroLabel();
             this.pnl_pb = new System.Windows.Forms.Panel();
-            this.pb_hlp = new System.Windows.Forms.PictureBox();
+            this.pb_gb = new System.Windows.Forms.PictureBox();
             this.pb_mmbrs = new System.Windows.Forms.PictureBox();
             this.pb_stff = new System.Windows.Forms.PictureBox();
             this.pb_accnt = new System.Windows.Forms.PictureBox();
@@ -56,7 +56,7 @@
             this.pnl_wlcm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_set)).BeginInit();
             this.pnl_pb.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_hlp)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_gb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_mmbrs)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_stff)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_accnt)).BeginInit();
@@ -83,7 +83,7 @@
             // 
             // pb_set
             // 
-            this.pb_set.Image = global::AdminMain_ModernUi_.Properties.Resources.Settings;
+            this.pb_set.Image = ((System.Drawing.Image)(resources.GetObject("pb_set.Image")));
             this.pb_set.Location = new System.Drawing.Point(929, 24);
             this.pb_set.Name = "pb_set";
             this.pb_set.Size = new System.Drawing.Size(30, 30);
@@ -121,7 +121,7 @@
             this.pnl_pb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnl_pb.Controls.Add(this.pb_hlp);
+            this.pnl_pb.Controls.Add(this.pb_gb);
             this.pnl_pb.Controls.Add(this.pb_mmbrs);
             this.pnl_pb.Controls.Add(this.pb_stff);
             this.pnl_pb.Controls.Add(this.pb_accnt);
@@ -134,21 +134,21 @@
             this.pnl_pb.Size = new System.Drawing.Size(1100, 475);
             this.pnl_pb.TabIndex = 1;
             // 
-            // pb_hlp
+            // pb_gb
             // 
-            this.pb_hlp.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.pb_gb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pb_hlp.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pb_hlp.Image = global::AdminMain_ModernUi_.Properties.Resources.hlp;
-            this.pb_hlp.Location = new System.Drawing.Point(830, 275);
-            this.pb_hlp.Name = "pb_hlp";
-            this.pb_hlp.Size = new System.Drawing.Size(250, 125);
-            this.pb_hlp.TabIndex = 7;
-            this.pb_hlp.TabStop = false;
-            this.pb_hlp.Click += new System.EventHandler(this.pb_hlp_Click);
-            this.pb_hlp.MouseLeave += new System.EventHandler(this.pb_hlp_MouseLeave);
-            this.pb_hlp.MouseHover += new System.EventHandler(this.pb_hlp_MouseHover);
+            this.pb_gb.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pb_gb.Image = global::AdminMain_ModernUi_.Properties.Resources.gglbks;
+            this.pb_gb.Location = new System.Drawing.Point(830, 275);
+            this.pb_gb.Name = "pb_gb";
+            this.pb_gb.Size = new System.Drawing.Size(250, 125);
+            this.pb_gb.TabIndex = 7;
+            this.pb_gb.TabStop = false;
+            this.pb_gb.Click += new System.EventHandler(this.pb_gb_Click);
+            this.pb_gb.MouseLeave += new System.EventHandler(this.pb_hlp_MouseLeave);
+            this.pb_gb.MouseHover += new System.EventHandler(this.pb_hlp_MouseHover);
             // 
             // pb_mmbrs
             // 
@@ -156,7 +156,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pb_mmbrs.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pb_mmbrs.Image = global::AdminMain_ModernUi_.Properties.Resources.mmbr;
+            this.pb_mmbrs.Image = ((System.Drawing.Image)(resources.GetObject("pb_mmbrs.Image")));
             this.pb_mmbrs.Location = new System.Drawing.Point(560, 275);
             this.pb_mmbrs.Name = "pb_mmbrs";
             this.pb_mmbrs.Size = new System.Drawing.Size(250, 125);
@@ -172,7 +172,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pb_stff.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pb_stff.Image = global::AdminMain_ModernUi_.Properties.Resources.stff;
+            this.pb_stff.Image = ((System.Drawing.Image)(resources.GetObject("pb_stff.Image")));
             this.pb_stff.Location = new System.Drawing.Point(290, 275);
             this.pb_stff.Name = "pb_stff";
             this.pb_stff.Size = new System.Drawing.Size(250, 125);
@@ -188,7 +188,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pb_accnt.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pb_accnt.Image = global::AdminMain_ModernUi_.Properties.Resources.Accnts;
+            this.pb_accnt.Image = ((System.Drawing.Image)(resources.GetObject("pb_accnt.Image")));
             this.pb_accnt.Location = new System.Drawing.Point(20, 275);
             this.pb_accnt.Name = "pb_accnt";
             this.pb_accnt.Size = new System.Drawing.Size(250, 125);
@@ -204,7 +204,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pb_rsrvtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pb_rsrvtn.Image = global::AdminMain_ModernUi_.Properties.Resources.rsrvtn;
+            this.pb_rsrvtn.Image = ((System.Drawing.Image)(resources.GetObject("pb_rsrvtn.Image")));
             this.pb_rsrvtn.Location = new System.Drawing.Point(830, 75);
             this.pb_rsrvtn.Name = "pb_rsrvtn";
             this.pb_rsrvtn.Size = new System.Drawing.Size(250, 125);
@@ -220,7 +220,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pb_rqsts.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pb_rqsts.Image = global::AdminMain_ModernUi_.Properties.Resources.rqsts;
+            this.pb_rqsts.Image = ((System.Drawing.Image)(resources.GetObject("pb_rqsts.Image")));
             this.pb_rqsts.Location = new System.Drawing.Point(560, 75);
             this.pb_rqsts.Name = "pb_rqsts";
             this.pb_rqsts.Size = new System.Drawing.Size(250, 125);
@@ -236,7 +236,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pb_rvws.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pb_rvws.Image = global::AdminMain_ModernUi_.Properties.Resources.rvws;
+            this.pb_rvws.Image = ((System.Drawing.Image)(resources.GetObject("pb_rvws.Image")));
             this.pb_rvws.Location = new System.Drawing.Point(290, 75);
             this.pb_rvws.Name = "pb_rvws";
             this.pb_rvws.Size = new System.Drawing.Size(250, 125);
@@ -252,7 +252,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pb_lbrry.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pb_lbrry.Image = global::AdminMain_ModernUi_.Properties.Resources.lib;
+            this.pb_lbrry.Image = ((System.Drawing.Image)(resources.GetObject("pb_lbrry.Image")));
             this.pb_lbrry.Location = new System.Drawing.Point(20, 75);
             this.pb_lbrry.Name = "pb_lbrry";
             this.pb_lbrry.Size = new System.Drawing.Size(250, 125);
@@ -431,7 +431,7 @@
             this.pnl_wlcm.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pb_set)).EndInit();
             this.pnl_pb.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pb_hlp)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_gb)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_mmbrs)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_stff)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_accnt)).EndInit();
@@ -451,7 +451,7 @@
         private System.Windows.Forms.Panel pnl_wlcm;
         private System.Windows.Forms.Panel pnl_pb;
         private System.Windows.Forms.PictureBox pb_lbrry;
-        private System.Windows.Forms.PictureBox pb_hlp;
+        private System.Windows.Forms.PictureBox pb_gb;
         private System.Windows.Forms.PictureBox pb_mmbrs;
         private System.Windows.Forms.PictureBox pb_stff;
         private System.Windows.Forms.PictureBox pb_accnt;

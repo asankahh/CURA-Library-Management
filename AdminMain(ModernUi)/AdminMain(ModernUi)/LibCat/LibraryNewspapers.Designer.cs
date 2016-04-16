@@ -79,7 +79,7 @@
             // btn_mDelete
             // 
             this.btn_mDelete.Image = null;
-            this.btn_mDelete.Location = new System.Drawing.Point(132, 573);
+            this.btn_mDelete.Location = new System.Drawing.Point(200, 566);
             this.btn_mDelete.Name = "btn_mDelete";
             this.btn_mDelete.Size = new System.Drawing.Size(110, 29);
             this.btn_mDelete.TabIndex = 30;
@@ -207,7 +207,7 @@
             // btn_updateForm
             // 
             this.btn_updateForm.Image = null;
-            this.btn_updateForm.Location = new System.Drawing.Point(132, 516);
+            this.btn_updateForm.Location = new System.Drawing.Point(70, 566);
             this.btn_updateForm.Name = "btn_updateForm";
             this.btn_updateForm.Size = new System.Drawing.Size(110, 29);
             this.btn_updateForm.TabIndex = 31;

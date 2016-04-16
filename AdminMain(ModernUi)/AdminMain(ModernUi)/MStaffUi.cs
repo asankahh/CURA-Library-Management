@@ -124,12 +124,12 @@ namespace AdminMain_ModernUi_
 
         private void pb_hlp_MouseHover(object sender, EventArgs e)
         {
-            pb_hlp.Image = Resources.hlp_h;
+            pb_hlp.Image = Resources.gglbks_h;
         }
 
         private void pb_hlp_MouseLeave(object sender, EventArgs e)
         {
-            pb_hlp.Image = Resources.hlp;
+            pb_hlp.Image = Resources.gglbks;
         }
 
         private void btn_styleaplly_Click(object sender, EventArgs e)
@@ -235,9 +235,9 @@ namespace AdminMain_ModernUi_
 
         private void pb_hlp_Click(object sender, EventArgs e)
         {
-            HelpUi HpUi = new HelpUi();
-            StyleManager.Clone(HpUi);
-            HpUi.ShowDialog();
+            GoogleBooks GBUi = new GoogleBooks();
+            this.StyleManager.Clone(GBUi);
+            GBUi.ShowDialog();
         }
 
         private void pb_mmbrs_Click(object sender, EventArgs e)

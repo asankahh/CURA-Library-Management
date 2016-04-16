@@ -84,6 +84,12 @@
     <Compile Include="Barrow_new.Designer.cs">
       <DependentUpon>Barrow_new.cs</DependentUpon>
     </Compile>
+    <Compile Include="GoogleBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoogleBooks.Designer.cs">
+      <DependentUpon>GoogleBooks.cs</DependentUpon>
+    </Compile>
     <Compile Include="HelpUi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -384,6 +390,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Barrow_new.resx">
       <DependentUpon>Barrow_new.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoogleBooks.resx">
+      <DependentUpon>GoogleBooks.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HelpUi.resx">
       <DependentUpon>HelpUi.cs</DependentUpon>
@@ -870,6 +879,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\noun_215433_cc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gglbks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gglbks_h.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
