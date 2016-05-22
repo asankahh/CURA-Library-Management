@@ -162,6 +162,30 @@
   <wsdl:message name="ICuraService_HitBooks_OutputMessage">
     <wsdl:part name="parameters" element="tns:HitBooksResponse" />
   </wsdl:message>
+  <wsdl:message name="ICuraService_WriteReview_InputMessage">
+    <wsdl:part name="parameters" element="tns:WriteReview" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_WriteReview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:WriteReviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_ShowReview_InputMessage">
+    <wsdl:part name="parameters" element="tns:ShowReview" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_ShowReview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ShowReviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_getmembername_InputMessage">
+    <wsdl:part name="parameters" element="tns:getmembername" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_getmembername_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getmembernameResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_getbookname_InputMessage">
+    <wsdl:part name="parameters" element="tns:getbookname" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_getbookname_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getbooknameResponse" />
+  </wsdl:message>
   <wsdl:message name="ICuraService_SelectMember_InputMessage">
     <wsdl:part name="parameters" element="tns:SelectMember" />
   </wsdl:message>
@@ -342,6 +366,48 @@
   <wsdl:message name="ICuraService_mRqr_OutputMessage">
     <wsdl:part name="parameters" element="tns:mRqrResponse" />
   </wsdl:message>
+  <wsdl:message name="ICuraService_DeleteReview_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteReview" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_DeleteReview_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteReviewResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_MemberReserve_InputMessage">
+    <wsdl:part name="parameters" element="tns:MemberReserve" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_MemberReserve_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MemberReserveResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_SetResStat_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetResStat" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_SetResStat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetResStatResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_GetLate_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLate" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_GetLate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_AllMemberData_InputMessage">
+    <wsdl:part name="parameters" element="tns:AllMemberData" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_AllMemberData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AllMemberDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_RtrnBk_InputMessage">
+    <wsdl:part name="parameters" element="tns:RtrnBk" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_RtrnBk_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RtrnBkResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_gb_InputMessage">
+    <wsdl:part name="parameters" element="tns:gb" />
+  </wsdl:message>
+  <wsdl:message name="ICuraService_gb_OutputMessage">
+    <wsdl:part name="parameters" element="tns:gbResponse" />
+  </wsdl:message>
   <wsdl:portType name="ICuraService">
     <wsdl:operation name="wcf">
       <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/wcf" message="tns:ICuraService_wcf_InputMessage" />
@@ -426,6 +492,22 @@
     <wsdl:operation name="HitBooks">
       <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/HitBooks" message="tns:ICuraService_HitBooks_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/HitBooksResponse" message="tns:ICuraService_HitBooks_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="WriteReview">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/WriteReview" message="tns:ICuraService_WriteReview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/WriteReviewResponse" message="tns:ICuraService_WriteReview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ShowReview">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/ShowReview" message="tns:ICuraService_ShowReview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/ShowReviewResponse" message="tns:ICuraService_ShowReview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getmembername">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/getmembername" message="tns:ICuraService_getmembername_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/getmembernameResponse" message="tns:ICuraService_getmembername_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getbookname">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/getbookname" message="tns:ICuraService_getbookname_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/getbooknameResponse" message="tns:ICuraService_getbookname_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="SelectMember">
       <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/SelectMember" message="tns:ICuraService_SelectMember_InputMessage" />
@@ -546,6 +628,34 @@
     <wsdl:operation name="mRqr">
       <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/mRqr" message="tns:ICuraService_mRqr_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/mRqrResponse" message="tns:ICuraService_mRqr_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteReview">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/DeleteReview" message="tns:ICuraService_DeleteReview_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/DeleteReviewResponse" message="tns:ICuraService_DeleteReview_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MemberReserve">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/MemberReserve" message="tns:ICuraService_MemberReserve_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/MemberReserveResponse" message="tns:ICuraService_MemberReserve_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetResStat">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/SetResStat" message="tns:ICuraService_SetResStat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/SetResStatResponse" message="tns:ICuraService_SetResStat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLate">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/GetLate" message="tns:ICuraService_GetLate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/GetLateResponse" message="tns:ICuraService_GetLate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AllMemberData">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/AllMemberData" message="tns:ICuraService_AllMemberData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/AllMemberDataResponse" message="tns:ICuraService_AllMemberData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RtrnBk">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/RtrnBk" message="tns:ICuraService_RtrnBk_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/RtrnBkResponse" message="tns:ICuraService_RtrnBk_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="gb">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICuraService/gb" message="tns:ICuraService_gb_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICuraService/gbResponse" message="tns:ICuraService_gb_OutputMessage" />
     </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="BasicHttpBinding_ICuraService" type="tns:ICuraService">
@@ -732,6 +842,42 @@
     </wsdl:operation>
     <wsdl:operation name="HitBooks">
       <soap:operation soapAction="http://tempuri.org/ICuraService/HitBooks" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteReview">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/WriteReview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowReview">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/ShowReview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getmembername">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/getmembername" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbookname">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/getbookname" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -1009,6 +1155,69 @@
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="DeleteReview">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/DeleteReview" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MemberReserve">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/MemberReserve" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetResStat">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/SetResStat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLate">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/GetLate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AllMemberData">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/AllMemberData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RtrnBk">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/RtrnBk" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gb">
+      <soap:operation soapAction="http://tempuri.org/ICuraService/gb" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:binding name="NetTcpBinding_ICuraService" type="tns:ICuraService">
     <wsp:PolicyReference URI="#NetTcpBinding_ICuraService_policy" />
@@ -1195,6 +1404,42 @@
     </wsdl:operation>
     <wsdl:operation name="HitBooks">
       <soap12:operation soapAction="http://tempuri.org/ICuraService/HitBooks" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteReview">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/WriteReview" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ShowReview">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/ShowReview" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getmembername">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/getmembername" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getbookname">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/getbookname" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>
@@ -1465,6 +1710,69 @@
     </wsdl:operation>
     <wsdl:operation name="mRqr">
       <soap12:operation soapAction="http://tempuri.org/ICuraService/mRqr" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteReview">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/DeleteReview" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MemberReserve">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/MemberReserve" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetResStat">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/SetResStat" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLate">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/GetLate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AllMemberData">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/AllMemberData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RtrnBk">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/RtrnBk" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gb">
+      <soap12:operation soapAction="http://tempuri.org/ICuraService/gb" style="document" />
       <wsdl:input>
         <soap12:body use="literal" />
       </wsdl:input>

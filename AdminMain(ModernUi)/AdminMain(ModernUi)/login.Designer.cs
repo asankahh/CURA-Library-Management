@@ -156,6 +156,7 @@
             // 
             // btn_ext
             // 
+            this.btn_ext.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btn_ext.Image = null;
             this.btn_ext.Location = new System.Drawing.Point(320, 267);
             this.btn_ext.Name = "btn_ext";
@@ -177,7 +178,9 @@
             // 
             // login
             // 
+            this.AcceptButton = this.btn_lgn;
             this.BackgroundImage = global::AdminMain_ModernUi_.Properties.Resources.Login;
+            this.CancelButton = this.btn_ext;
             this.ClientSize = new System.Drawing.Size(600, 338);
             this.ControlBox = false;
             this.Controls.Add(this.lbl1);
@@ -190,6 +193,7 @@
             this.Controls.Add(this.lbl_lgn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.Name = "login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.login_Load);

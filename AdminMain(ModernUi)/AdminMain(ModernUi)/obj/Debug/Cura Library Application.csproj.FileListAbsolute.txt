@@ -778,7 +778,6 @@ F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.AccountsUi_New.resources
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.BarrowelsReturns.resources
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.Barrow_new.resources
-F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.HelpUi.resources
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.ALectures.resources
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.DigiNew.resources
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.LibCat.Digi.eBooks.resources
@@ -827,7 +826,6 @@ F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.StaffUi.resources
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.StaffUi_New.resources
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\Cura Library Application.csproj.GenerateResource.Cache
-F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\HelpDocs\Helpdc.pdf
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Helpdc.pdf
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\test1.rtf
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources\Accnts.png
@@ -879,3 +877,5 @@ F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\Resources
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).exe
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\AdminMain(ModernUi).pdb
 F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\obj\Debug\AdminMain_ModernUi_.GoogleBooks.resources
+F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\GoogleSearchAPI.dll
+F:\CLZ ROOM\Git\CURA\AdminMain(ModernUi)\AdminMain(ModernUi)\bin\Debug\GoogleSearchAPI.xml

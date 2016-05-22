@@ -62,6 +62,26 @@ namespace CuraService.methods
             return count;
         }
 
+        public int StResStat(string stid,string stat,string rid)
+        {
+            conn.Open();
+            string qry = "UPDATE Reservation SET Staff_ID='" + stid + "',Status='" + stat + "' WHERE Reservation_ID='" + rid + "'";
+            SqlCommand cmd = new SqlCommand(qry, conn);
+            int cnfrm = cmd.ExecuteNonQuery();
+            conn.Close();
+            return cnfrm;
+        }
+
+        public int rtrnbk(string br_id, string date)
+        {
+            conn.Open();
+            string qry = "UPDATE Barrowals SET Status='Returned' WHERE Br_ID='" + br_id + "' ";
+            SqlCommand cmd = new SqlCommand(qry, conn);
+            int cnfrm = cmd.ExecuteNonQuery();
+            conn.Close();
+            return cnfrm;
+        }
+
 
     }
 }

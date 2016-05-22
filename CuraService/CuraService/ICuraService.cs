@@ -90,6 +90,18 @@ namespace CuraService
         [OperationContract]//21
         DataTable HitBooks();
 
+        [OperationContract]//22
+        int WriteReview(string BID, string MID, string REV, int RAT);
+
+        [OperationContract]//23
+        DataTable ShowReview();
+
+        [OperationContract]//24
+        string getmembername(string mid);
+
+        [OperationContract]
+        string getbookname(string bid);
+
         //[OperationContract]//21
         //int InsertDigital(string CuraID, string Name, string Author, string ISBN, string Edition, string Publisher, string Category, string Year, string NoOfPages, string Quantity, string Gener, string Description, byte[] img);
 
@@ -206,5 +218,25 @@ namespace CuraService
         [OperationContract]//55
         DataTable mRqr();
 
+        [OperationContract]//56
+        int DeleteReview(string rid);
+
+        [OperationContract]//57
+        int MemberReserve(string cdate, string rdate, string mid, string msg, string bid);
+
+        [OperationContract]//58
+        int SetResStat(string stid, string stat, string rid);
+
+        [OperationContract]//59
+        DataTable GetLate();
+
+        [OperationContract]//60
+        DataTable AllMemberData(string id);
+
+        [OperationContract]//61
+        int RtrnBk(string br_id,string date);
+
+        [OperationContract]//62
+        DataTable gb(string sk);
     }
 }

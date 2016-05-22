@@ -36,14 +36,21 @@ namespace CuraService.methods
 
         public DataTable GetMemberData(string usrnm)
         {
-            DataTable DT = new DataTable("Member", "AllMember");
+
             conn.Open();
             string qry_gt_id = "SELECT ID FROM LoginDetails WHERE Username='" + usrnm + "'";
             SqlCommand cmdid = new SqlCommand(qry_gt_id, conn);
             string id = cmdid.ExecuteScalar().ToString();
+            DataTable DT = AllMemberData(id);
+            return DT;
+        }
+
+        public DataTable AllMemberData(string id)
+        {
             string qry_gt_nm = "SELECT * FROM Member WHERE Member_Id='" + id + "'";
             SqlCommand cmd = new SqlCommand(qry_gt_nm, conn);
             SqlDataAdapter DA = new SqlDataAdapter(cmd);
+            DataTable DT = new DataTable("Member", "AllMember");
             DA.Fill(DT);
             DA.Update(DT);
             conn.Close();
@@ -400,6 +407,54 @@ namespace CuraService.methods
             SDAin.Fill(transin);
             conn.Close();
             return transin;
+        }
+
+        public DataTable ViewReview()
+        {
+            DataTable rvws = new DataTable("Review");
+            string qry = "SELECT * FROM Review";
+            conn.Open();
+            SqlDataAdapter rv = new SqlDataAdapter(qry, conn);
+            rv.Fill(rvws);
+            conn.Close();
+            return rvws;
+           
+        }
+
+        public string gtmnm(string mid)
+        {
+            DataTable name = new DataTable();
+            string qry = "SELECT M_FirstName,M_LastName FROM Member WHERE Member_Id = '" + mid + "'";
+            conn.Open();
+            SqlDataAdapter nme = new SqlDataAdapter(qry, conn);
+            nme.Fill(name);
+            conn.Close();
+            string fnm = name.Rows[0][0].ToString();
+            string lnm = name.Rows[0][1].ToString();
+            string nm = fnm + lnm;
+            return nm;
+        }
+
+        public string gtbnm(string bid)
+        {
+            string qry = "SELECT Name FROM Library WHERE Library_ID='" + bid + "'";
+            conn.Open();
+            SqlCommand sql = new SqlCommand(qry, conn);
+            string bookid = sql.ExecuteScalar().ToString();
+            conn.Close();
+            return bookid;
+        }
+
+        public DataTable gtlate()
+        {
+            conn.Open();
+            string qry = "SELECT Member_ID, Return_Date FROM Barrowals WHERE Return_Date <= Convert(Date, GetDate()) AND M_Sent = 0";
+            SqlCommand cmd = new SqlCommand(qry, conn);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable("getlate", "something");
+            sda.Fill(dt);
+            conn.Close();
+            return dt;
         }
     }
 }

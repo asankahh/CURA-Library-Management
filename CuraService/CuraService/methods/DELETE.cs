@@ -35,5 +35,14 @@ namespace CuraService.methods
             conn.Close();
             return i;
         }
+
+        public int deleterev(string rid)
+        {
+            string qry = "DELETE FROM Review WHERE R_ID = '"+rid+"'";
+            SqlCommand cmd = new SqlCommand(qry, conn);
+            conn.Open();
+            int r = cmd.ExecuteNonQuery();
+            return r;
+        }
     }
 }

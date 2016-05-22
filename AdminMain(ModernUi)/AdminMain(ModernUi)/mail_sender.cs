@@ -9,6 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Net.Mail;
+using System.Net;
+using MetroFramework;
 
 namespace AdminMain_ModernUi_
 {
@@ -19,25 +21,45 @@ namespace AdminMain_ModernUi_
             InitializeComponent();
         }
 
-        private void btn_snd_Click(object sender, EventArgs e)
-        {
-            string smtp = "smtp-mail.outlook.com";
-            string email = "cura_illuminati@hotmail.com";
-            string psw = "aabkmilluminati5";
-            MailMessage mail = new MailMessage(txt_frm.Text,txt_to.Text,txt_sub.Text,txt_msg.Text);
-            SmtpClient client = new SmtpClient(smtp);
-            client.Port = 587;
-            client.Credentials = new System.Net.NetworkCredential(email,psw);
-            client.Send(mail);
-            MessageBox.Show("Notified","Success",MessageBoxButtons.OK);
-        }
+        static string recievermail = BarrowelsReturns.email;
+        static string recievername = BarrowelsReturns.name;
+        string mailbody = "Mr. " + recievername + ". you haven't returned book yet. Please be kind to return it. thanks";
 
         private void Notifier_Load(object sender, EventArgs e)
         {
-            txt_to.Text = BarrowelsReturns.email;
-            string name = BarrowelsReturns.name;
-            string msg = "jkajflahglihnlsakhgk"+name+"aghakfgabkjhgjk";
-            txt_msg.Text = msg;
+            txt_to.Text = recievermail;
+            string name = recievername;            
+            txt_msg.Text = mailbody;
+        }
+
+        private void btn_msndr_Click(object sender, EventArgs e)
+        {
+            MailSender();
+            MetroMessageBox.Show(this, "Reminder sent to "+recievername+" successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Hand);
+
+        }
+
+        private void MailSender()
+        {
+            string host = "smtp.gmail.com";
+            string sndr = "illuminati.nsbm@gmail.com";
+            string pwrd = "aabkmilluminati";
+            string rcvr = txt_to.Text;
+            string body = txt_msg.Text;
+
+            MailMessage msg = new MailMessage();
+            msg.Subject = "Reminder From Library";
+            msg.From = new MailAddress(sndr);
+            msg.Body = body;
+            msg.To.Add(new MailAddress(rcvr));
+            SmtpClient smtp = new SmtpClient();
+            smtp.Host = host;
+            smtp.Port = 587;
+            smtp.UseDefaultCredentials = false;
+            smtp.EnableSsl = true;
+            NetworkCredential NC = new NetworkCredential(sndr, pwrd);
+            smtp.Credentials = NC;
+            smtp.Send(msg);
         }
     }
 }

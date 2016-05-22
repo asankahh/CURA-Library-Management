@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroFramework.Forms;
 using AdminMain_ModernUi_.Properties;
+using System.Net;
+using MetroFramework;
 
 namespace AdminMain_ModernUi_.MemberStuff
 {
@@ -121,9 +123,27 @@ namespace AdminMain_ModernUi_.MemberStuff
 
         private void pb_gb_Click(object sender, EventArgs e)
         {
-            GoogleBooks GBUi = new GoogleBooks();
-            this.StyleManager.Clone(GBUi);
-            GBUi.ShowDialog();
+            bool chk = false;
+            try
+            {
+                using (var cl = new WebClient())
+                {
+                    using (var st = cl.OpenRead("http://www.google.com"))
+                    {
+                        chk = true;
+                    }
+                }
+                if (chk == true)
+                {
+                    GoogleBooks GBUi = new GoogleBooks();
+                    this.StyleManager.Clone(GBUi);
+                    GBUi.ShowDialog();
+                }
+            }
+            catch (Exception ex)
+            {
+                MetroMessageBox.Show(this, "To use Google Book feature you need Proper Internet connection.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }

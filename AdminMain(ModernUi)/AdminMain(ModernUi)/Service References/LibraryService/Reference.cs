@@ -141,6 +141,30 @@ namespace AdminMain_ModernUi_.LibraryService {
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/HitBooks", ReplyAction="http://tempuri.org/ICuraService/HitBooksResponse")]
         System.Threading.Tasks.Task<System.Data.DataTable> HitBooksAsync();
         
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/WriteReview", ReplyAction="http://tempuri.org/ICuraService/WriteReviewResponse")]
+        int WriteReview(string BID, string MID, string REV, int RAT);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/WriteReview", ReplyAction="http://tempuri.org/ICuraService/WriteReviewResponse")]
+        System.Threading.Tasks.Task<int> WriteReviewAsync(string BID, string MID, string REV, int RAT);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/ShowReview", ReplyAction="http://tempuri.org/ICuraService/ShowReviewResponse")]
+        System.Data.DataTable ShowReview();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/ShowReview", ReplyAction="http://tempuri.org/ICuraService/ShowReviewResponse")]
+        System.Threading.Tasks.Task<System.Data.DataTable> ShowReviewAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/getmembername", ReplyAction="http://tempuri.org/ICuraService/getmembernameResponse")]
+        string getmembername(string mid);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/getmembername", ReplyAction="http://tempuri.org/ICuraService/getmembernameResponse")]
+        System.Threading.Tasks.Task<string> getmembernameAsync(string mid);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/getbookname", ReplyAction="http://tempuri.org/ICuraService/getbooknameResponse")]
+        string getbookname(string bid);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/getbookname", ReplyAction="http://tempuri.org/ICuraService/getbooknameResponse")]
+        System.Threading.Tasks.Task<string> getbooknameAsync(string bid);
+        
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/SelectMember", ReplyAction="http://tempuri.org/ICuraService/SelectMemberResponse")]
         System.Data.DataTable SelectMember();
         
@@ -320,6 +344,48 @@ namespace AdminMain_ModernUi_.LibraryService {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/mRqr", ReplyAction="http://tempuri.org/ICuraService/mRqrResponse")]
         System.Threading.Tasks.Task<System.Data.DataTable> mRqrAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/DeleteReview", ReplyAction="http://tempuri.org/ICuraService/DeleteReviewResponse")]
+        int DeleteReview(string rid);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/DeleteReview", ReplyAction="http://tempuri.org/ICuraService/DeleteReviewResponse")]
+        System.Threading.Tasks.Task<int> DeleteReviewAsync(string rid);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/MemberReserve", ReplyAction="http://tempuri.org/ICuraService/MemberReserveResponse")]
+        int MemberReserve(string cdate, string rdate, string mid, string msg, string bid);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/MemberReserve", ReplyAction="http://tempuri.org/ICuraService/MemberReserveResponse")]
+        System.Threading.Tasks.Task<int> MemberReserveAsync(string cdate, string rdate, string mid, string msg, string bid);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/SetResStat", ReplyAction="http://tempuri.org/ICuraService/SetResStatResponse")]
+        int SetResStat(string stid, string stat, string rid);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/SetResStat", ReplyAction="http://tempuri.org/ICuraService/SetResStatResponse")]
+        System.Threading.Tasks.Task<int> SetResStatAsync(string stid, string stat, string rid);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/GetLate", ReplyAction="http://tempuri.org/ICuraService/GetLateResponse")]
+        System.Data.DataTable GetLate();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/GetLate", ReplyAction="http://tempuri.org/ICuraService/GetLateResponse")]
+        System.Threading.Tasks.Task<System.Data.DataTable> GetLateAsync();
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/AllMemberData", ReplyAction="http://tempuri.org/ICuraService/AllMemberDataResponse")]
+        System.Data.DataTable AllMemberData(string id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/AllMemberData", ReplyAction="http://tempuri.org/ICuraService/AllMemberDataResponse")]
+        System.Threading.Tasks.Task<System.Data.DataTable> AllMemberDataAsync(string id);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/RtrnBk", ReplyAction="http://tempuri.org/ICuraService/RtrnBkResponse")]
+        int RtrnBk(string br_id, string date);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/RtrnBk", ReplyAction="http://tempuri.org/ICuraService/RtrnBkResponse")]
+        System.Threading.Tasks.Task<int> RtrnBkAsync(string br_id, string date);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/gb", ReplyAction="http://tempuri.org/ICuraService/gbResponse")]
+        System.Data.DataTable gb(string sk);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/ICuraService/gb", ReplyAction="http://tempuri.org/ICuraService/gbResponse")]
+        System.Threading.Tasks.Task<System.Data.DataTable> gbAsync(string sk);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -515,6 +581,38 @@ namespace AdminMain_ModernUi_.LibraryService {
         
         public System.Threading.Tasks.Task<System.Data.DataTable> HitBooksAsync() {
             return base.Channel.HitBooksAsync();
+        }
+        
+        public int WriteReview(string BID, string MID, string REV, int RAT) {
+            return base.Channel.WriteReview(BID, MID, REV, RAT);
+        }
+        
+        public System.Threading.Tasks.Task<int> WriteReviewAsync(string BID, string MID, string REV, int RAT) {
+            return base.Channel.WriteReviewAsync(BID, MID, REV, RAT);
+        }
+        
+        public System.Data.DataTable ShowReview() {
+            return base.Channel.ShowReview();
+        }
+        
+        public System.Threading.Tasks.Task<System.Data.DataTable> ShowReviewAsync() {
+            return base.Channel.ShowReviewAsync();
+        }
+        
+        public string getmembername(string mid) {
+            return base.Channel.getmembername(mid);
+        }
+        
+        public System.Threading.Tasks.Task<string> getmembernameAsync(string mid) {
+            return base.Channel.getmembernameAsync(mid);
+        }
+        
+        public string getbookname(string bid) {
+            return base.Channel.getbookname(bid);
+        }
+        
+        public System.Threading.Tasks.Task<string> getbooknameAsync(string bid) {
+            return base.Channel.getbooknameAsync(bid);
         }
         
         public System.Data.DataTable SelectMember() {
@@ -755,6 +853,62 @@ namespace AdminMain_ModernUi_.LibraryService {
         
         public System.Threading.Tasks.Task<System.Data.DataTable> mRqrAsync() {
             return base.Channel.mRqrAsync();
+        }
+        
+        public int DeleteReview(string rid) {
+            return base.Channel.DeleteReview(rid);
+        }
+        
+        public System.Threading.Tasks.Task<int> DeleteReviewAsync(string rid) {
+            return base.Channel.DeleteReviewAsync(rid);
+        }
+        
+        public int MemberReserve(string cdate, string rdate, string mid, string msg, string bid) {
+            return base.Channel.MemberReserve(cdate, rdate, mid, msg, bid);
+        }
+        
+        public System.Threading.Tasks.Task<int> MemberReserveAsync(string cdate, string rdate, string mid, string msg, string bid) {
+            return base.Channel.MemberReserveAsync(cdate, rdate, mid, msg, bid);
+        }
+        
+        public int SetResStat(string stid, string stat, string rid) {
+            return base.Channel.SetResStat(stid, stat, rid);
+        }
+        
+        public System.Threading.Tasks.Task<int> SetResStatAsync(string stid, string stat, string rid) {
+            return base.Channel.SetResStatAsync(stid, stat, rid);
+        }
+        
+        public System.Data.DataTable GetLate() {
+            return base.Channel.GetLate();
+        }
+        
+        public System.Threading.Tasks.Task<System.Data.DataTable> GetLateAsync() {
+            return base.Channel.GetLateAsync();
+        }
+        
+        public System.Data.DataTable AllMemberData(string id) {
+            return base.Channel.AllMemberData(id);
+        }
+        
+        public System.Threading.Tasks.Task<System.Data.DataTable> AllMemberDataAsync(string id) {
+            return base.Channel.AllMemberDataAsync(id);
+        }
+        
+        public int RtrnBk(string br_id, string date) {
+            return base.Channel.RtrnBk(br_id, date);
+        }
+        
+        public System.Threading.Tasks.Task<int> RtrnBkAsync(string br_id, string date) {
+            return base.Channel.RtrnBkAsync(br_id, date);
+        }
+        
+        public System.Data.DataTable gb(string sk) {
+            return base.Channel.gb(sk);
+        }
+        
+        public System.Threading.Tasks.Task<System.Data.DataTable> gbAsync(string sk) {
+            return base.Channel.gbAsync(sk);
         }
     }
 }

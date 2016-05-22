@@ -56,6 +56,9 @@
             // grd_res
             // 
             this.grd_res.AllowUserToResizeRows = false;
+            this.grd_res.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.grd_res.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.grd_res.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.grd_res.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
@@ -93,14 +96,14 @@
             this.grd_res.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.grd_res.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.grd_res.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.grd_res.Size = new System.Drawing.Size(535, 535);
+            this.grd_res.Size = new System.Drawing.Size(903, 535);
             this.grd_res.TabIndex = 6;
             // 
             // MemRes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 675);
+            this.ClientSize = new System.Drawing.Size(950, 675);
             this.ControlBox = false;
             this.Controls.Add(this.grd_res);
             this.Controls.Add(this.lnkcls);

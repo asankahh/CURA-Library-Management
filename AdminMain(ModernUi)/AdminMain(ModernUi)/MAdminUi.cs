@@ -11,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
+using System.Net;
 
 namespace AdminMain_ModernUi_
 {
@@ -127,9 +128,27 @@ namespace AdminMain_ModernUi_
 
         private void pb_gb_Click(object sender, EventArgs e)
         {
-            GoogleBooks GBUi = new GoogleBooks();
-            this.StyleManager.Clone(GBUi);
-            GBUi.ShowDialog();
+            bool chk = false;
+            try
+            {
+                using (var cl = new WebClient())
+                {
+                    using (var st = cl.OpenRead("http://www.google.com"))
+                    {
+                        chk = true;
+                    }
+                }
+                if (chk == true)
+                {
+                    GoogleBooks GBUi = new GoogleBooks();
+                    this.StyleManager.Clone(GBUi);
+                    GBUi.ShowDialog();
+                }
+            }
+            catch(Exception ex)
+            {
+                MetroMessageBox.Show(this, "To use Google Book feature you need Proper Internet connection.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         private void btn_styleaplly_Click(object sender, EventArgs e)

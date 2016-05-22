@@ -10,3 +10,5 @@ F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\obj\Debug\CuraGui.Properties.Resources.
 F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\obj\Debug\CuraGui.csproj.GenerateResource.Cache
 F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\obj\Debug\CuraGui.exe
 F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\obj\Debug\CuraGui.pdb
+F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\bin\Debug\GoogleSearchAPI.dll
+F:\CLZ ROOM\Git\CURA\CuraService\CuraGui\bin\Debug\GoogleSearchAPI.xml

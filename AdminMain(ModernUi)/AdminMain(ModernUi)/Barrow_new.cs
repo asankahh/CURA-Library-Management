@@ -24,7 +24,7 @@ namespace AdminMain_ModernUi_
         {
             DateTime barday = dt_pck.Value.Date;
             DateTime retday = barday.AddDays(14);
-            txt_rte.Text = retday.ToString();
+            txt_rte.Text = retday.ToShortDateString();
         }
 
         private void btncls_Click(object sender, EventArgs e)
@@ -34,9 +34,9 @@ namespace AdminMain_ModernUi_
 
         private void btn_clr_Click(object sender, EventArgs e)
         {
-            txt_bkid.Text = "";
-            txt_mid.Text = "";
-            txt_rte.Text = "";
+            txt_bkid.Text = null;
+            txt_mid.Text = null;
+            txt_rte.Text = null;
         }
 
         private void btn_sv_Click(object sender, EventArgs e)

@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GoogleSearchAPI">
+      <HintPath>..\..\Resources\GoogleSearchAPI_0.3.1\GoogleSearchAPI.dll</HintPath>
+    </Reference>
     <Reference Include="MetroFramework">
       <HintPath>..\..\..\..\..\Downloads\Compressed\MDA\MetroFramework.dll</HintPath>
     </Reference>
@@ -89,12 +92,6 @@
     </Compile>
     <Compile Include="GoogleBooks.Designer.cs">
       <DependentUpon>GoogleBooks.cs</DependentUpon>
-    </Compile>
-    <Compile Include="HelpUi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="HelpUi.Designer.cs">
-      <DependentUpon>HelpUi.cs</DependentUpon>
     </Compile>
     <Compile Include="LibCat\Digi\ALectures.cs">
       <SubType>Form</SubType>
@@ -394,9 +391,6 @@
     <EmbeddedResource Include="GoogleBooks.resx">
       <DependentUpon>GoogleBooks.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="HelpUi.resx">
-      <DependentUpon>HelpUi.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="LibCat\Digi\ALectures.resx">
       <DependentUpon>ALectures.cs</DependentUpon>
     </EmbeddedResource>
@@ -542,9 +536,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StaffUi_New.resx">
       <DependentUpon>StaffUi_New.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="HelpDocs\Helpdc.pdf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </EmbeddedResource>
     <None Include="Properties\DataSources\System.Data.DataTable.datasource" />
     <None Include="Properties\Settings.settings">
@@ -885,6 +876,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\gglbks_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star_hov.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star_sel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star_def.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

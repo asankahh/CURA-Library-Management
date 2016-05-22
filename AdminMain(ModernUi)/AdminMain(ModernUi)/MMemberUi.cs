@@ -30,7 +30,6 @@ namespace AdminMain_ModernUi_
             this.StyleManager = msm_member;
 
             t1.Abort();
-
         }
 
         public void SplashScreen()

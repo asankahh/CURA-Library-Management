@@ -25,6 +25,7 @@ namespace CuraService
         rndmbks rnd = new rndmbks();
         CRYPTO crpt = new CRYPTO();
         HTBKS htbks = new HTBKS();
+        GOOGLEBOOKS googlebooks = new GOOGLEBOOKS();
 
         public bool wcf()
         {
@@ -49,8 +50,6 @@ namespace CuraService
         {
             int avl = lgn.chkusravl(chkusr);
             return avl;
-
-
         }        
 
         public string login_chkpw(string chkpw)
@@ -435,12 +434,76 @@ namespace CuraService
 
         public DataTable HitBooks()
         {
-            DataTable Hitbooks = new DataTable("Hit Books");
-            Hitbooks = htbks.htbks();
+            DataTable Hitbooks = htbks.htbks();
+            
             return Hitbooks;
         }
 
+        public int WriteReview(string BID, string MID, string REV, int RAT)
+        {
+            int cnfrm = insrt.wrtrvw(MID, BID, REV, RAT);
+            return cnfrm;
+        }
 
+        public DataTable ShowReview()
+        {
+            DataTable reviews = slct.ViewReview();
+            return reviews;
+        }
+
+        public string getmembername(string mid)
+        {
+            string name = slct.gtmnm(mid);
+            return name;
+        }
+        public string getbookname(string bid)
+        {
+            string bookname = slct.gtbnm(bid);
+            return bookname;
+        }
+
+        public int DeleteReview(string rid)
+        {
+            int r = dlt.deleterev(rid);
+            return r;
+        }
+
+        public int MemberReserve(string cdate, string rdate, string mid, string msg,string bid)
+        {
+            int res = insrt.MemberReserve(cdate, rdate, mid, msg, bid);
+            return res;
+        }
+
+        public int SetResStat(string stid, string stat, string rid)
+        {
+            int status = updt.StResStat(stid, stat, rid);
+            return status;
+        }
+
+        public DataTable GetLate()
+        {
+            DataTable late = new DataTable("getlate","something");
+            late=slct.gtlate();
+            return late;
+        }
+
+        public DataTable AllMemberData(string id)
+        {
+            DataTable DT = slct.AllMemberData(id);           
+            return DT;
+        }
+
+        public int RtrnBk(string br_id, string date)
+        {
+            int cnfrm = updt.rtrnbk(br_id, date);
+            return cnfrm;
+        }
+
+        public DataTable gb(string sk)
+        {
+            DataTable result = googlebooks.gglbks(sk);
+            return result;
+        }
 
         string ICuraService.GetCategoryName(string categoryId)
         {

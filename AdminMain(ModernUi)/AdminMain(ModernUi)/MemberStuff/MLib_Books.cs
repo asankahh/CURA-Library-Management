@@ -16,7 +16,13 @@ namespace AdminMain_ModernUi_.MemberStuff
 {
     public partial class MLib_Books : MetroForm
     {
-        string itemID;
+        public static string itemID;
+        public static string booknm;
+        public static string author;
+        public static byte[] img;
+        public static Image pic;
+        public static string bid;
+
         LibraryService.CuraServiceClient client = new LibraryService.CuraServiceClient("NetTcpBinding_ICuraService");
 
         public MLib_Books()
@@ -32,7 +38,7 @@ namespace AdminMain_ModernUi_.MemberStuff
             try
             {
                 bd.DataSource = client.SelectLibrary("Book001");
-                this.gridview_Book.DataSource = bd;
+                gridview_Book.DataSource = bd;
             }
             catch (Exception)
             {
@@ -63,29 +69,30 @@ namespace AdminMain_ModernUi_.MemberStuff
 
         private void gridview_Book_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            string itemid = "";
+            //string itemid = "";
             if (e.RowIndex >= 0)
             {
-                DataGridViewRow row = this.gridview_Book.Rows[e.RowIndex];
+                DataGridViewRow row = gridview_Book.Rows[e.RowIndex];
 
                 txt_hide.Text = row.Cells["LibraryID"].Value.ToString();
                 itemID = txt_hide.Text;
-               
+                booknm = row.Cells["BookName"].Value.ToString();
+                author = row.Cells["Author"].Value.ToString();
+                bid = row.Cells["LibraryID"].Value.ToString();
             }
 
-            byte[] img = client.getItemImage(itemID);
+            img = client.getItemImage(itemID);
+            
 
             try
             {
                 MemoryStream mstream = new MemoryStream(img);
-                Image pic = Image.FromStream(mstream);
+                pic = Image.FromStream(mstream);
 
-                pb_viewBook.Image = pic;
-               
+                pb_viewBook.Image = pic;               
             }
             catch (ArgumentException)
             {
-
                 pb_viewBook.Image = null;
             }
         }
@@ -136,11 +143,10 @@ namespace AdminMain_ModernUi_.MemberStuff
                 gridview_Book.DataSource = bd;
             }
         }
-        public static string bid;
+        
         //public static string form;
         private void gridview_Book_RowHeaderMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            
+        {            
             DataGridViewRow row = gridview_Book.Rows[e.RowIndex];
             bid = row.Cells["LibraryID"].Value.ToString();
             LibCat.LibShw LS = new LibCat.LibShw();

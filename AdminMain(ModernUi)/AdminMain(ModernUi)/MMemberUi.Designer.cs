@@ -546,7 +546,7 @@
             this.pb_usrimg.Location = new System.Drawing.Point(110, 7);
             this.pb_usrimg.Name = "pb_usrimg";
             this.pb_usrimg.Size = new System.Drawing.Size(150, 200);
-            this.pb_usrimg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_usrimg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_usrimg.TabIndex = 2;
             this.pb_usrimg.TabStop = false;
             // 

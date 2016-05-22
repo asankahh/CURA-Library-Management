@@ -68,6 +68,27 @@ namespace CuraService.methods
             return i;
         }
 
+        public int wrtrvw(string MID, string BID, string RVW, int RAT)
+        {
+            int i = 0;
+            conn.Open();
+            string qry = "INSERT INTO Review (B_ID,M_ID,Review,Rating) VALUES('"+BID+"','"+MID+"','"+RVW+"','"+RAT+"')";
+            SqlCommand cmd = new SqlCommand(qry, conn);
+            i = cmd.ExecuteNonQuery();
+            conn.Close();
+            return i;
+        }
+
+        public int MemberReserve(string cdate, string rdate, string mid, string msg,string bid)
+        {
+            conn.Open();
+            string sql = "INSERT INTO Reservation (Reserved_Date, Requested_Date, Member_ID, Message,Book_ID ) VALUES('" + cdate + "','" + rdate + "','" + mid + "','" + msg + "','"+bid+"')";
+            SqlCommand cmd = new SqlCommand(sql, conn);
+            int R = cmd.ExecuteNonQuery();
+            conn.Close();
+            return R;
+        }
+
         public int InsertStaff(string StaffID, string FirstName, string LastName, string Address1, string Address2, string City, string PostalCode, string PersonalEmail, string MobileNumber, string HomeNumber, string Gender, string Birthday, string Nationality)
         {
             int count = 0;
@@ -113,5 +134,9 @@ namespace CuraService.methods
             conn.Close();
             return count;
         }
+
+        
+
+        
     }
 }
